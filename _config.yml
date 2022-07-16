@@ -1,0 +1,11 @@
+title: 
+email: abhijat@cmu.edu
+description: A Focus on Attention NeurIPS workshop
+  ---
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+
+# Google Analytics

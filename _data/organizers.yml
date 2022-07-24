@@ -1,0 +1,34 @@
+- name: Akanksha Saran
+  url: https://asaran.github.io/
+  photo: AS.jpg
+  affiliation: Microsoft Research
+
+- name: Abhijat Biswas
+  url: https://www.andrew.cmu.edu/user/abhijatb/
+  photo: AB.jpg
+  affiliation: Carnegie Mellon University
+
+- name: Khimya Khetarpal
+  url: https://kkhetarpal.github.io/
+  photo: KK.jpg
+  affiliation: McGill University / MILA, Montreal
+
+- name: Reuben Aronson
+  url: http://reuben-aronson.com/
+  photo: RA.jpg
+  affiliation: Carnegie Mellon University / Tufts University
+
+- name: Ruohan Zhang
+  url: https://ai.stanford.edu/~zharu/
+  photo: RZ.jpg
+  affiliation: Stanford University
+
+- name: Grace Lindsay
+  url: https://gracewlindsay.com/
+  photo: GL.jpg
+  affiliation: University College London / New York University
+
+- name: Scott Niekum
+  url: https://www.cs.utexas.edu/~sniekum/
+  photo: SN.jpg
+  affiliation: University of Texas, Austin / University of Massachusetts

@@ -161,8 +161,10 @@ div.speaker p.speaker-bio {
 }
 
 .people-pic {
-  max-width: 125px;
-  max-height: 125px;
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  object-fit: cover;
   border-radius: 125px;
 }
 

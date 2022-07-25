@@ -1,0 +1,29 @@
+- name: Pieter Roelfsema
+  url: https://nin.nl/about-us/the-organisation/team/pieter-roelfsema/
+  photo: PR.jpg
+  affil: Department Head, Netherlands Institute for Neuroscience
+  talk_title: TBA
+  talk_abstract: TBA
+
+- name: Ida Momennejad
+  url: https://www.momen-nejad.org/
+  photo: IM.jpg
+  affil: Principal Researcher, Microsoft Research
+  talk_title: TBA
+  talk_abstract: TBA
+
+- name: James Whittington
+  url: https://www.jcrwhittington.com/
+  photo: JW.jpg
+  affil: Postdoc, University of Oxford
+  talk_title: TBA
+  talk_abstract: TBA
+
+- name: Henny Admoni
+  url: https://www.hennyadmoni.com/
+  photo: HA.png
+  affil: A. Nico Habermann Assistant Professor, Carnegie Mellon University
+  talk_title: TBA
+  talk_abstract: TBA
+
+  

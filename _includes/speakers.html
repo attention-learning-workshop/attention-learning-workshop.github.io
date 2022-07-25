@@ -1,0 +1,22 @@
+
+## Invited Speakers
+
+{% for speaker in site.data.speakers %}
+
+<div class="row speaker">
+    <div class="col-sm-3 speaker-pic">
+      <a href="{{ speaker.url }}">
+        <img class="people-pic" src="{{ speaker.photo | prepend:"/2022/img/speakers/"}}" />
+      </a>
+      <div class="people-name">
+        <a href="{{ speaker.url }}">{{ speaker.name }}</a>
+        <h6> {{ speaker.affil }} </h6>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <h3>{{ speaker.talk_title }}</h3><br />
+      <p class="speaker-abstract">{{ speaker.talk_abstract }}</p>
+    </div>
+</div>
+
+{% endfor %}

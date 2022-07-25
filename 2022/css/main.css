@@ -45,13 +45,14 @@ h1,h2,h3 {
 }
 
 h1 {
-  margin: 2em 0 1em;
+  margin: 1em 0 1em;
   font-size: 30px;
   line-height: 35px;
+  text-align: center;
 }
 
 h2 {
-  margin: 1em 0 1em;
+  margin: 2em 0 1em;
   font-size: 25px;
   line-height: 30px;
 }

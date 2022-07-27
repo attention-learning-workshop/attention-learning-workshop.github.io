@@ -1,8 +1,6 @@
 Attention is a widely popular topic studied in many fields such as neuroscience, psychology, and machine learning. A better understanding and conceptualization of attention in both humans and machines has led to significant progress across fields. At the same time, attention is far from a clear or unified concept, with many definitions within and across multiple fields.
 
-Cognitive scientists study how the brain flexibly controls its limited computational resources to accomplish its objectives.
-
-Inspired by cognitive attention, machine learning researchers introduce attention as an inductive bias in their models to improve performance or interpretability. Human-computer interaction designers monitor people’s attention during interactions to implicitly detect aspects of their mental states.
+Cognitive scientists study how the brain flexibly controls its limited computational resources to accomplish its objectives. Inspired by cognitive attention, machine learning researchers introduce attention as an inductive bias in their models to improve performance or interpretability. Human-computer interaction designers monitor people’s attention during interactions to implicitly detect aspects of their mental states.
 
 While the aforementioned research areas all consider attention, each formalizes and operationalizes it in different ways. Bridging this gap will facilitate:
 

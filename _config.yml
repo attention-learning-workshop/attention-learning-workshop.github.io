@@ -1,7 +1,11 @@
 title: "All Things Attention: Bridging Different Perspectives on Attention"
+urltitle: "All Things Attention"
 email: abhijat@cmu.edu
-description: A Focus on Attention NeurIPS workshop
-  ---
+description: All Things Attention NeurIPS workshop
+keywords: neurips, attention, workshop, computer vision, robotics, machine learning, gaze, interaction, neuroscience, cognitive psychology
+
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings

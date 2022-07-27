@@ -1,34 +1,41 @@
 - name: Akanksha Saran
   url: https://asaran.github.io/
   photo: AS.jpg
-  affiliation: Microsoft Research
+  affil: Microsoft Research
+  category: organizers
 
 - name: Abhijat Biswas
   url: https://www.andrew.cmu.edu/user/abhijatb/
   photo: AB.jpg
-  affiliation: Carnegie Mellon University
+  affil: Carnegie Mellon University
+  category: organizers
 
 - name: Khimya Khetarpal
   url: https://kkhetarpal.github.io/
   photo: KK.jpg
-  affiliation: McGill University / MILA, Montreal
+  affil: McGill University / MILA, Montreal
+  category: organizers
 
 - name: Reuben Aronson
   url: http://reuben-aronson.com/
   photo: RA.jpg
-  affiliation: Carnegie Mellon University / Tufts University
+  affil: Carnegie Mellon University / Tufts University
+  category: organizers
 
 - name: Ruohan Zhang
   url: https://ai.stanford.edu/~zharu/
   photo: RZ.jpg
-  affiliation: Stanford University
+  affil: Stanford University
+  category: organizers
 
 - name: Grace Lindsay
   url: https://gracewlindsay.com/
   photo: GL.jpg
-  affiliation: University College London / New York University
+  affil: University College London / New York University
+  category: organizers
 
 - name: Scott Niekum
   url: https://www.cs.utexas.edu/~sniekum/
   photo: SN.jpg
-  affiliation: University of Texas, Austin / University of Massachusetts
+  affil: University of Texas, Austin / University of Massachusetts
+  category: organizers

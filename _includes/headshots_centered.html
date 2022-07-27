@@ -1,0 +1,32 @@
+
+{%- assign i = 1 -%}
+
+<div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+{%- for person in include.people -%}
+{%- assign new_row = i | modulo:5 -%}
+
+{% if new_row == 0 %}
+
+</div>
+<div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+{% endif %}
+
+{% capture photo_url %}{{page.data_dir}}img/{{person.category}}/{{person.photo}}{% endcapture %}
+
+  <div class="col-sm-2">
+    <a href="{{ person.url }}">
+      <img class="people-pic" src="{{ photo_url }}">
+    </a>
+    <div class="people-name">
+      <a href="{{ person.url }}">{{ person.name }}</a>
+      <h6>{{ person.affil }}</h6>
+    </div>
+  </div>
+
+{%- assign i = i | plus: 1 -%}
+{%- endfor -%}
+
+</div>
+

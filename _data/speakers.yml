@@ -4,6 +4,7 @@
   affil: Department Head, Netherlands Institute for Neuroscience
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Ida Momennejad
   url: https://www.momen-nejad.org/
@@ -11,6 +12,7 @@
   affil: Principal Researcher, Microsoft Research
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: James Whittington
   url: https://www.jcrwhittington.com/
@@ -18,6 +20,7 @@
   affil: Postdoc, University of Oxford
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Henny Admoni
   url: https://www.hennyadmoni.com/
@@ -25,6 +28,7 @@
   affil: A. Nico Habermann Assistant Professor, Carnegie Mellon University
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Tobias Gerstenberg
   url: https://cicl.stanford.edu/member/tobias_gerstenberg/
@@ -32,6 +36,7 @@
   affil: Assistant Professor of Cognitive Psychology, Stanford University
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Vidhya Navalpakkam
   url: https://research.google/people/VidhyaNavalpakkam/
@@ -39,6 +44,7 @@
   affil: Principal Scientist, Google Research
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Shalini De Mello
   url: https://research.nvidia.com/person/shalini-gupta
@@ -46,6 +52,7 @@
   affil: Principal Research Scientist, NVIDIA
   talk_title: TBA
   talk_abstract: TBA
+  category: speakers
 
 - name: Erin Grant
   url: https://eringrant.github.io/
@@ -53,7 +60,8 @@
   affil: Ph. D. Candidate, UC Berkeley
   talk_title: TBA
   talk_abstract: TBA
-  
+  category: speakers
+
 
 
   

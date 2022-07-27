@@ -13,6 +13,7 @@
   talk_title: TBA
   talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: James Whittington
   url: https://www.jcrwhittington.com/
@@ -37,6 +38,7 @@
   talk_title: TBA
   talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Vidhya Navalpakkam
   url: https://research.google/people/VidhyaNavalpakkam/
@@ -45,6 +47,7 @@
   talk_title: TBA
   talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Shalini De Mello
   url: https://research.nvidia.com/person/shalini-gupta
@@ -53,6 +56,7 @@
   talk_title: TBA
   talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Erin Grant
   url: https://eringrant.github.io/
@@ -61,6 +65,7 @@
   talk_title: TBA
   talk_abstract: TBA
   category: speakers
+  panelist: true
 
 
 

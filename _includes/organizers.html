@@ -22,7 +22,7 @@
 
   <div class="col-sm-2">
     <a href="{{ org.url }}">
-      <img class="people-pic" src="{{ org.photo | prepend:"img/organizers/" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ org.photo | prepend:"img/organizers/" | prepend: page.data_dir }}">
     </a>
     <div class="people-name">
       <a href="{{ org.url }}">{{ org.name }}</a>

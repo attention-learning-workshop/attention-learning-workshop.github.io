@@ -6,7 +6,7 @@
 <div class="row speaker">
     <div class="col-sm-3 speaker-pic">
       <a href="{{ speaker.url }}">
-        <img class="people-pic" src="{{ speaker.photo | prepend:"/2022/img/speakers/"}}" />
+        <img class="people-pic" src="{{ speaker.photo | prepend:"img/speakers/" | prepend: page.data_dir }}" />
       </a>
       <div class="people-name">
         <a href="{{ speaker.url }}">{{ speaker.name }}</a>

@@ -2,16 +2,16 @@
   url: https://nin.nl/about-us/the-organisation/team/pieter-roelfsema/
   photo: PR.jpg
   affil: Department Head, Netherlands Institute for Neuroscience
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
 
 - name: Ida Momennejad
   url: https://www.momen-nejad.org/
   photo: IM.jpg
   affil: Principal Researcher, Microsoft Research
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
   panelist: true
 
@@ -19,24 +19,24 @@
   url: https://www.jcrwhittington.com/
   photo: JW.jpg
   affil: Postdoc, University of Oxford
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
 
 - name: Henny Admoni
   url: https://www.hennyadmoni.com/
   photo: HA.png
   affil: A. Nico Habermann Assistant Professor, Carnegie Mellon University
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
 
 - name: Tobias Gerstenberg
   url: https://cicl.stanford.edu/member/tobias_gerstenberg/
   photo: TG.jpg
   affil: Assistant Professor of Cognitive Psychology, Stanford University
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
   panelist: true
 
@@ -44,8 +44,8 @@
   url: https://research.google/people/VidhyaNavalpakkam/
   photo: VN.jpg
   affil: Principal Scientist, Google Research
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
   panelist: true
 
@@ -53,8 +53,8 @@
   url: https://research.nvidia.com/person/shalini-gupta
   photo: SM.jpg
   affil: Principal Research Scientist, NVIDIA
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
   panelist: true
 
@@ -62,11 +62,7 @@
   url: https://eringrant.github.io/
   photo: EG.jpg
   affil: Ph. D. Candidate, UC Berkeley
-  talk_title: TBA
-  talk_abstract: TBA
+  # talk_title: TBA
+  # talk_abstract: TBA
   category: speakers
   panelist: true
-
-
-
-  

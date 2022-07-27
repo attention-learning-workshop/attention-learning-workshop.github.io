@@ -24,8 +24,8 @@
   </div>
 </div>
 <div class="col-sm-4">
-  <h3>{{ speaker.talk_title }}</h3><br />
-  <p class="speaker-abstract">{{ speaker.talk_abstract }}</p>
+  <h3>{{ speaker.talk_title | default: "Title TBA" }}</h3><br />
+  <p class="speaker-abstract">{{ speaker.talk_abstract | default: "Abstract TBA" }}</p>
 </div>
 
 {% endfor %}

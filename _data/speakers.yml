@@ -5,6 +5,7 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Ida Momennejad
   url: https://www.momen-nejad.org/
@@ -22,6 +23,7 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Henny Admoni
   url: https://www.hennyadmoni.com/

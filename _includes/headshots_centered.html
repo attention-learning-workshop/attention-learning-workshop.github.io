@@ -1,12 +1,12 @@
 
-{%- assign i = 1 -%}
+{%- assign i = 0 -%}
 
 <div class="row" style="display: flex; justify-content: center; align-items: start;">
 
 {%- for person in include.people -%}
 {%- assign new_row = i | modulo:5 -%}
 
-{% if new_row == 0 %}
+{% if new_row == 0 and i > 0 %}
 
 </div>
 <div class="row" style="display: flex; justify-content: center; align-items: start;">

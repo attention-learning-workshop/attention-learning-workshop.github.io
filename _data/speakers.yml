@@ -32,6 +32,7 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
+  panelist: true
 
 - name: Tobias Gerstenberg
   url: https://cicl.stanford.edu/member/tobias_gerstenberg/
@@ -49,7 +50,7 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
-  panelist: true
+  # panelist: true
 
 - name: Shalini De Mello
   url: https://research.nvidia.com/person/shalini-gupta
@@ -67,4 +68,4 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
-  panelist: true
+  # panelist: true

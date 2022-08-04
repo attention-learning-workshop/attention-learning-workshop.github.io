@@ -7,9 +7,7 @@ The focus of the work should relate to the list of the topics specified below. T
 We encourage submissions on the following topics from the focus of bridging different perspectives on attention:
 - Relationships between biological and artificial attention
 - Attention for reinforcement learning and decision making
-- Benefits and formulation of attention mechanisms for continual / lifelong learning
+- Attention for continual / lifelong learning
 - Attention as a tool for interpretation and explanation
-- The role of attention in human-computer interaction and human-robot interaction
+- Attention in human-computer interaction
 - Attention mechanisms in Deep Neural Network (DNN) architectures
-
-**Note:** Authors of previously rejected main conference submissions are also welcome to submit their work to our workshop. When doing so, you must submit the previous reviewers' comments (named as `previous_reviews.pdf`) and a letter of changes (named as `letter_of_changes.pdf`) as part of your supplementary materials to clearly demonstrate the changes made to address the comments made by previous reviewers.

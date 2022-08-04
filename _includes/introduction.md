@@ -14,38 +14,40 @@ While the aforementioned research areas all consider attention, each formalizes 
 
 
 
-The All Things Attention workshop aims to foster connections across disparate academic communities that conceptualize "attention" such as Neuroscience, Psychology, Machine Learning, and Human Computer Interaction. Workshop topics of interest include (but are not limited to):
+The All Things Attention workshop aims to foster connections across disparate academic communities that conceptualize "attention" such as Neuroscience, Psychology, Machine Learning, and Human Computer Interaction. Workshop topics of interest include:
 
-- Relationships between biological and artificial attention
-  - What are the connections between different forms of attention in the human brain and present deep neural network architectures? 
-  - Can the anatomy of human attention models provide usable insights to researchers designing architectures for artificial systems? 
-  - Given the same task and learning objective, do machines learn attention mechanisms that are different from humans? 
-- Attention for reinforcement learning and decision making
-  - How have reinforcement learning agents leveraged attention in decision making?
-  - Do decision-making agents today have implicit or explicit formalisms of attention?
-  - How can AI agents build notions of attention without explicitly baked in notions of attention?
-  - Can attention significantly enable AI agents to scale e.g. through gains in sample efficiency, and generalization?
-- Benefits and formulation of attention mechanisms for continual / lifelong learning
-  - How can continual learning agents optimize for retention of knowledge for tasks that it already learned? 
-  - How can the amount of interference between different inputs be controlled via attention? 
+### Relationships between biological and artificial attention
+  - What are the connections between forms of attention in the human brain and deep neural network architectures? 
+  - Can the anatomy of human attention models inspire designs of architectures for artificial systems? 
+  - Given the same task and learning objective, how do learned attention mechanisms in machines differ from those in humans? 
+
+### Attention for reinforcement learning and decision making
+  - How do reinforcement learning agents use attention in decision making?
+  - Do decision-making agents today use implicit or explicit formalisms of attention?
+  - How can AI agents build implicit notions of attention?
+  - How can attention enable AI agents to scale or generalize?
+
+### Attention mechanisms for continual / lifelong learning
+  - How can continual learning agents use attention to maintain already-learned knowledge? 
+  - How can attention control the amount of interference between different inputs? 
   - How does the executive control of attention evolve with learning in humans? 
-  - How can we study the development of attentional systems in infancy and childhood to better understand how attention can be learned?
-- Attention as a tool for interpretation and explanation
-  - How have researchers leveraged attention as a visualization tool?
-  - What are the common approaches when using attention as a tool for interpretability in AI? 
-  - What are the major bottlenecks and common pitfalls in leveraging attention as a key tool for explaining the decisions of AI agents?
-  - How can we do better?
-- The role of attention in human-computer interaction and human-robot interaction
-  - How do we detect aspects of human attention during interactions, from sensing to processing to representations?    
+  - How does understanding the development of human attentional systems in infancy and childhood explain how attention can be learned in artificial systems?
+
+### Attention for interpretation and explanation
+  - How can attention models aid visualization?
+  - How is attention used for interpretability in AI? 
+  - What are the major bottlenecks and common pitfalls in applying attention methods for explaining the decisions of AI agents?
+
+### Attention in human-computer interaction
+  - How do we detect aspects of human attention during interactions, from sensing to processing to representations?
   - What systems benefit from human attention modeling, and how do they use these models?
   - How can systems influence a user’s attention, and what systems benefit from this capability?
   - How can a system communicate or simulate its own attention (humanlike or algorithmic) in an interaction, and to what benefit?
-  - How do attention models affect different applications, like collaboration or assistance, in different domains, like autonomous vehicles and driver assistance systems, learning from demonstration, joint attention in collaborative tasks, social interaction, etc.?
-  - How should researchers thinking about attention in different biological and computational fields organize the collection of human gaze data sets, modeling gaze behaviors, and utilizing gaze information in various applications for knowledge transfer and cross-pollination of ideas?
-- Attention mechanisms in Deep Neural Network (DNN) architectures
-  - How does attention in DNN such as transformers relate to existing formalisms of attention in cogsci/psychology? 
-  - Do we have a concrete understanding of how and if self-attention in transformers contributes to its vast success in recent models such as GPT2, GPT3, DALLE.? 
-  - Can our understanding of attention from other fields inform the progress we have achieved in recent breakthroughs?
+
+### Attention mechanisms in Deep Neural Network (DNN) architectures
+  - How does attention in DNNs such as transformers relate to existing formalisms of attention in cogsci/psychology? 
+  - How does self-attention in transformers contribute to its vast success in recent models such as GPT2, GPT3, DALLE? 
+  - How can an understanding of attention from other fields inspire future DNN research?
 
 
 {% comment %}

@@ -4,7 +4,7 @@
 <div class="row" style="display: flex; justify-content: center; align-items: start;">
 
 {%- for person in include.people -%}
-{%- assign new_row = i | modulo:5 -%}
+{%- assign new_row = i | modulo:4 -%}
 
 {% if new_row == 0 and i > 0 %}
 

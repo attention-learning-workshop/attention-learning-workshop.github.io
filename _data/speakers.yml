@@ -50,7 +50,7 @@
   # talk_title: TBA
   # talk_abstract: TBA
   category: speakers
-  # panelist: true
+  panelist: true
 
 - name: Shalini De Mello
   url: https://research.nvidia.com/person/shalini-gupta

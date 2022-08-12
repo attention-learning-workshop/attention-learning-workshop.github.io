@@ -4,6 +4,12 @@
   affil: Postdoc, University of Chicago
   category: panelists
 
+- name: David Ha
+  url: https://research.google/people/105004/
+  photo: DH.png
+  affil: Google Brain
+  category: panelists
+
 - name: Ramakrishna Vedantam
   url: https://vrama91.github.io
   photo: RV.png

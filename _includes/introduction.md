@@ -22,7 +22,7 @@ The All Things Attention workshop aims to foster connections across disparate ac
   - Given the same task and learning objective, how do learned attention mechanisms in machines differ from those in humans? 
 
 ### Attention for reinforcement learning and decision making
-How have reinforcement learning agents leveraged attention in decision making?
+  - How have reinforcement learning agents leveraged attention in decision making?
   - Do decision-making agents today have implicit or explicit formalisms of attention?
   - How can AI agents build notions of attention without explicitly baked in notions of attention?
   - Can attention significantly enable AI agents to scale e.g. through gains in sample efficiency, and generalization?

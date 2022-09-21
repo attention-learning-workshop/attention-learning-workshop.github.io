@@ -6,7 +6,7 @@
 {%- assign i = 0 -%}
 
 {% for speaker in site.data.speakers %}
-{%- assign new_row = i | modulo: 2 -%}
+{%- assign new_row = i | modulo: 1 -%}
 
 {%- if new_row == 0 -%}
 <div class="clearfix"></div>
@@ -23,9 +23,9 @@
     <h6> {{ speaker.affil }} </h6>
   </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-10">
   <h3>{{ speaker.talk_title | default: "Title TBA" }}</h3><br />
-  <p class="speaker-abstract">{{ speaker.talk_abstract | default: "Abstract TBA" }}</p>
+  <span class="speaker-abstract">{{ speaker.talk_abstract | default: "Abstract TBA" | markdownify }}</span> <br />
 </div>
 
 {% endfor %}

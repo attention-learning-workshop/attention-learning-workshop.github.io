@@ -8,7 +8,7 @@
 
 Much recent work focuses on learning in the brain using presumed biologically plausible variants of supervised learning algorithms. However, the biological plausibility of these approaches is limited, because there is no teacher in the motor cortex that instructs the motor neurons. Instead, learning in the brain usually depends on reward and punishment. BrainProp is a biologically plausible reinforcement learning scheme for deep networks with an any number of layers. The network chooses an action by selecting a unit in the output layer and uses feedback connections to assign credit to the units in lower layers that are responsible for this action. After the choice, the network receives reinforcement so that there is no need for a teacher. We showed how BrainProp is mathematically equivalent to error backpropagation, for one output unit at a time (Pozzi et al., 2020). We illustrate learning of classical and hard image-classification benchmarks (MNIST, CIFAR10, CIFAR100 and Tiny ImageNet) by deep networks. BrainProp achieves an accuracy that is equivalent to that of standard error-backpropagation, and better than other state-of-the-art biologically inspired learning schemes. Additionally, the trial-and-error nature of learning is associated with limited additional training time so that BrainProp is a factor of 1-3.5 times slower. These results provide new insights into how deep learning may be implemented in the brain."
   category: speakers
-  panelist: true
+  panelist: false
 
 - name: Ida Momennejad
   url: https://www.momen-nejad.org/

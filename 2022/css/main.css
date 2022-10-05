@@ -146,6 +146,10 @@ div.speaker {
   margin: 2em 0;
 }
 
+div.speaker-pic {
+  margin-bottom: 2em;
+}
+
 div.speaker
 div.speaker-pic {
   text-align: right;
@@ -155,6 +159,10 @@ div.speaker p.speaker-abstract,
 div.speaker p.speaker-bio {
   font-size: 1em;
   line-height: 1.5em;
+}
+
+div.speaker-talk h3 {
+  margin-bottom: 0.5em;
 }
 
 #organizers {

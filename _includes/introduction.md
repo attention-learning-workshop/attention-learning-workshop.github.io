@@ -51,6 +51,10 @@ The All Things Attention workshop aims to foster connections across disparate ac
   - How can an understanding of attention from other fields inspire future DNN research?
 
 
+## Relevant Papers
+
+{% include papers.md %}
+
 {% comment %}
 This workshop will bring together area experts and student researchers to discuss the advances that have been made in the field of attention-based learning and the major challenges for future research efforts. 
 

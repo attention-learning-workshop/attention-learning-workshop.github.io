@@ -1,0 +1,33 @@
+<div class="row">
+    <table class="table schedule" style="border:none !important;">
+        <thead class="thead-light">
+          <tr>
+            <th>Time in CST</th>
+            <th>Event name</th>
+            <th>Descriptiomn</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            {% for event in site.data.schedule %}
+            <tr>
+                <td style="text-align: right; padding-right: 2em;">{{ event.start_time }} - {{ event.end_time }}</td>
+                <td>{{ event.name }}</td>
+                <td>{{ event.description | markdownify }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+    <!--
+    <span class="disclaimer">
+    * This time is calculated to be in your computer's reported time zone.
+    <br>
+    For example, those in Los Angeles may see UTC-7,
+    <br>
+    while those in Berlin may see UTC+2.
+    <br>
+    <br>
+    Please note that there may be differences to your actual time zone.</span>
+    -->
+</div>

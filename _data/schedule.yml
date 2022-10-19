@@ -5,16 +5,16 @@
     - Workshop Intro (10 mins)
     - Invited Speaker Talks (20 mins each)
     - Paper Presentations + Q&A (15 mins each)
-- name: Lunch and Virtual Social Event
+- name: Panel Discussion I
   start_time: "11:00 AM"
   end_time: "12:00 PM"
   description: |
-    GatherTown/Zoom breakout rooms 
-- name: Panel Discussion I
+    Panelists TBA
+- name: Lunch and Virtual Social Event
   start_time: "12:00 PM"
   end_time: "1:00 PM"
   description: |
-    Panelists TBA
+    GatherTown/Zoom breakout rooms 
 - name: Coffee Break / Poster Session
   start_time: "1:00 PM"
   end_time: "2:00 PM"

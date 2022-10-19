@@ -3,3 +3,25 @@
   year: 2020
   venue: Front. Comput. Neurosci.
   link: https://doi.org/10.3389/fncom.2020.00029
+
+- title: Human Gaze Assisted Artificial Intelligence ":" A Review
+  author: Ruohan Zhang, Akanksha Saran, Bo Liu, Yifeng Zhu, Sihang Guo, Scott Niekum, Dana H. Ballard, Mary M. Hayhoe
+  year: 2020
+  venue: IJCAI
+  link: https://www.ijcai.org/Proceedings/2020/0689.pdf
+
+- title: Eye Movements in Natural Behavior
+  author: Mary M. Hayhoe, Dana H. Ballard
+  year: 2005
+  venue: Trends in Cognitive Sciences
+  link: https://www.sciencedirect.com/science/article/pii/S1364661305000598
+
+- title: End-to-End Differentiable Sequential Neural Attention
+  author: Jürgen Schmidhuber
+  year: 2021
+  link: https://people.idsia.ch/~juergen/neural-attention-1990-1993.html
+
+- title: Neural nets learn to program neural nets with fast weights—like today's Transformer variants.
+  author: Jürgen Schmidhuber
+  year: 2020
+  link: https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html

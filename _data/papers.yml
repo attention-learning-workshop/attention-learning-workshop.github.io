@@ -4,6 +4,12 @@
   venue: Trends in Cognitive Sciences
   link: https://www.sciencedirect.com/science/article/pii/S1364661305000598
 
+- title: Attention is All You Need
+  author: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin
+  year: 2017
+  venue: NeurIPS
+  link: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+
 - title: Understanding Teacher Gaze Patterns for Robot Learning
   author: Akanksha Saran, Elaine Schaertl Short, Andrea Thomaz, and Scott Niekum
   year: 2019
@@ -44,4 +50,4 @@
   author: Haiping Wu, Khimya Khetarpal, and Doina Precup
   year: 2021
   venue: AAAI 
-  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042  

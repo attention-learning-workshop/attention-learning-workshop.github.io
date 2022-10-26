@@ -16,4 +16,7 @@ We encourage submissions on the following topics from the focus of bridging diff
 - Attention in human-computer interaction
 - Attention mechanisms in Deep Neural Network (DNN) architectures
 
-**Please submit your papers via the following link:** [submission website](https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/Attention)
+**Submission is now closed.**
+
+
+

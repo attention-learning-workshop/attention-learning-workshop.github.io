@@ -27,3 +27,9 @@
   photo: AV.jpg
   affil: Chief Scientist and Co-Founder, Adept AI Labs
   category: panelists
+
+- name: John Langford
+  url: https://www.microsoft.com/en-us/research/people/jcl/
+  photo: jcl.jpeg
+  affil: Partner Research Manager
+  category: panelists

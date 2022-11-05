@@ -10,6 +10,12 @@
   venue: NeurIPS
   link: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
 
+- title: Eye-hand behavior in human-robot shared manipulation
+  author: Reuben M Aronson, Thiago Santini, Thomas C Kübler, Enkelejda Kasneci, Siddhartha Srinivasa, Henny Admoni
+  year: 2018
+  venue: HRI
+  link: https://par.nsf.gov/servlets/purl/10066120
+
 - title: Understanding Teacher Gaze Patterns for Robot Learning
   author: Akanksha Saran, Elaine Schaertl Short, Andrea Thomaz, and Scott Niekum
   year: 2019
@@ -27,6 +33,12 @@
   year: 2020
   venue: IJCAI
   link: https://www.ijcai.org/Proceedings/2020/0689.pdf
+
+- title: Eye Gaze for Assistive Manipulation
+  author: Reuben M Aronson, Henny Admoni
+  year: 2020
+  venue: HRI
+  link: https://dl.acm.org/doi/pdf/10.1145/3371382.3377434
 
 - title: Neural nets learn to program neural nets with fast weights—like today's Transformer variants.
   author: Jürgen Schmidhuber
@@ -50,4 +62,22 @@
   author: Haiping Wu, Khimya Khetarpal, and Doina Precup
   year: 2021
   venue: AAAI 
-  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042  
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042 
+
+- title: Inferring Goals with Gaze during Teleoperated Manipulation
+  author: Reuben M. Aronson, Nadia Almutlak, and Henny Admoni
+  year: 2021
+  venue: IROS
+  link: http://harp.ri.cmu.edu/assets/pubs/aronson_iros21_inferring_gaze_goal.pdf 
+
+- title: Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models
+  author: Alex Lamb, Riashat Islam1, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2207.08229.pdf
+
+- title: Gaze Complements Control Input for Goal Prediction During Assisted Teleoperation
+  author: Reuben M Aronson, Henny Admoni
+  year: 2022
+  venue: RSS
+  link: http://harp.ri.cmu.edu/assets/pubs/aronson_gaze_to_goal_rss22.pdf

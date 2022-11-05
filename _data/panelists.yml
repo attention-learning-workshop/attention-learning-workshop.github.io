@@ -7,7 +7,7 @@
 - name: David Ha
   url: https://research.google/people/105004/
   photo: DH.png
-  affil: Research Scientist, Google Brain
+  affil: Head of Strategy, Stability AI
   category: panelists
 
 - name: Ramakrishna Vedantam
@@ -26,6 +26,12 @@
   url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
   photo: AV.jpg
   affil: Chief Scientist and Co-Founder, Adept AI Labs
+  category: panelists
+
+- name: Brian Kingsbury
+  url: https://researcher.watson.ibm.com/researcher/view.php?person=us-bedk
+  photo: BK.jpg
+  affil: Distinguished Research Scientist and Manager, IBM Research
   category: panelists
 
 - name: John Langford

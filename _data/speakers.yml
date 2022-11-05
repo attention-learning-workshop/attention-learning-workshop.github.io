@@ -3,10 +3,11 @@
   photo: PR.jpg
   affil: Department Head, Netherlands Institute for Neuroscience
   talk_title: "BrainProp: How Attentional Processes in the Brain Solve the Credit Assignment Problem"
-  talk_abstract: "Humans and many other animals have an enormous capacity to learn about sensory stimuli and to master new skills. Many of the mechanisms that enable us to learn remain to be understood. One of the greatest challenges of systems neuroscience is to explain how synaptic connections change to support maximally adaptive behaviour. We will provide an overview of factors that determine the change in the strength of synapses. Specifically, we will discuss the influence of attention, neuromodulators and feedback connections in synaptic plasticity and suggest a specific framework, called BrainProp, in which these factors interact to improve the functioning of the entire network.
+  talk_abstract: |
+    Humans and many other animals have an enormous capacity to learn about sensory stimuli and to master new skills. Many of the mechanisms that enable us to learn remain to be understood. One of the greatest challenges of systems neuroscience is to explain how synaptic connections change to support maximally adaptive behaviour. We will provide an overview of factors that determine the change in the strength of synapses. Specifically, we will discuss the influence of attention, neuromodulators and feedback connections in synaptic plasticity and suggest a specific framework, called BrainProp, in which these factors interact to improve the functioning of the entire network.
 
+    Much recent work focuses on learning in the brain using presumed biologically plausible variants of supervised learning algorithms. However, the biological plausibility of these approaches is limited, because there is no teacher in the motor cortex that instructs the motor neurons. Instead, learning in the brain usually depends on reward and punishment. BrainProp is a biologically plausible reinforcement learning scheme for deep networks with an any number of layers. The network chooses an action by selecting a unit in the output layer and uses feedback connections to assign credit to the units in lower layers that are responsible for this action. After the choice, the network receives reinforcement so that there is no need for a teacher. We showed how BrainProp is mathematically equivalent to error backpropagation, for one output unit at a time (Pozzi et al., 2020). We illustrate learning of classical and hard image-classification benchmarks (MNIST, CIFAR10, CIFAR100 and Tiny ImageNet) by deep networks. BrainProp achieves an accuracy that is equivalent to that of standard error-backpropagation, and better than other state-of-the-art biologically inspired learning schemes. Additionally, the trial-and-error nature of learning is associated with limited additional training time so that BrainProp is a factor of 1-3.5 times slower. These results provide new insights into how deep learning may be implemented in the brain.
 
-Much recent work focuses on learning in the brain using presumed biologically plausible variants of supervised learning algorithms. However, the biological plausibility of these approaches is limited, because there is no teacher in the motor cortex that instructs the motor neurons. Instead, learning in the brain usually depends on reward and punishment. BrainProp is a biologically plausible reinforcement learning scheme for deep networks with an any number of layers. The network chooses an action by selecting a unit in the output layer and uses feedback connections to assign credit to the units in lower layers that are responsible for this action. After the choice, the network receives reinforcement so that there is no need for a teacher. We showed how BrainProp is mathematically equivalent to error backpropagation, for one output unit at a time (Pozzi et al., 2020). We illustrate learning of classical and hard image-classification benchmarks (MNIST, CIFAR10, CIFAR100 and Tiny ImageNet) by deep networks. BrainProp achieves an accuracy that is equivalent to that of standard error-backpropagation, and better than other state-of-the-art biologically inspired learning schemes. Additionally, the trial-and-error nature of learning is associated with limited additional training time so that BrainProp is a factor of 1-3.5 times slower. These results provide new insights into how deep learning may be implemented in the brain."
   category: speakers
   panelist: false
 
@@ -23,8 +24,10 @@ Much recent work focuses on learning in the brain using presumed biologically pl
   url: https://www.jcrwhittington.com/
   photo: JW.jpg
   affil: Postdoc, University of Oxford
-  talk_title: "Relating Transformers to Models and Neural Representations of the Hippocampal Formation"
-  talk_abstract: "Many deep neural network architectures loosely based on brain networks have recently been shown to replicate neural firing patterns observed in the brain. One of the most exciting and promising novel architectures, the Transformer neural network, was developed without the brain in mind. In this work, we show that transformers, when equipped with recurrent position encodings, replicate the precisely tuned spatial representations of the hippocampal formation; most notably place and grid cells. Furthermore, we show that this result is no surprise since it is closely related to current hippocampal models from neuroscience. We additionally show the transformer version offers dramatic performance gains over the neuroscience version. This work continues to bind computations of artificial and brain networks, offers a novel understanding of the hippocampal-cortical interaction, and suggests how wider cortical areas may perform complex tasks beyond current neuroscience models such as language comprehension."
+  talk_title: Relating Transformers to Models and Neural Representations of the Hippocampal Formation
+  talk_abstract: 
+    Many deep neural network architectures loosely based on brain networks have recently been shown to replicate neural firing patterns observed in the brain. One of the most exciting and promising novel architectures, the Transformer neural network, was developed without the brain in mind. In this work, we show that transformers, when equipped with recurrent position encodings, replicate the precisely tuned spatial representations of the hippocampal formation; most notably place and grid cells. Furthermore, we show that this result is no surprise since it is closely related to current hippocampal models from neuroscience. We additionally show the transformer version offers dramatic performance gains over the neuroscience version. This work continues to bind computations of artificial and brain networks, offers a novel understanding of the hippocampal-cortical interaction, and suggests how wider cortical areas may perform complex tasks beyond current neuroscience models such as language comprehension.
+
   category: speakers
   panelist: true
 
@@ -33,7 +36,9 @@ Much recent work focuses on learning in the brain using presumed biologically pl
   photo: HA.png
   affil: A. Nico Habermann Assistant Professor, Carnegie Mellon University
   talk_title: Eye Gaze in Human-Robot Collaboration
-  talk_abstract: "In robotics, human-robot collaboration works best when robots are responsive to their human partners' mental states. Human eye gaze has been used as a proxy for one such mental state: attention. While eye gaze can be a useful signal, for example enabling intent prediction, it is also a noisy one. Gaze serves several functions beyond attention, and thus recognizing what people are attending to from their eye gaze is a complex task. In this talk, I will discuss our research on modeling eye gaze to understand human attention in collaborative tasks such as shared manipulation and assisted driving."
+  talk_abstract: |
+    In robotics, human-robot collaboration works best when robots are responsive to their human partners' mental states. Human eye gaze has been used as a proxy for one such mental state: attention. While eye gaze can be a useful signal, for example enabling intent prediction, it is also a noisy one. Gaze serves several functions beyond attention, and thus recognizing what people are attending to from their eye gaze is a complex task. In this talk, I will discuss our research on modeling eye gaze to understand human attention in collaborative tasks such as shared manipulation and assisted driving.
+
   category: speakers
   panelist: true
 
@@ -41,8 +46,10 @@ Much recent work focuses on learning in the brain using presumed biologically pl
   url: https://cicl.stanford.edu/member/tobias_gerstenberg/
   photo: TG.jpg
   affil: Assistant Professor of Cognitive Psychology, Stanford University
-  # talk_title: TBA
-  # talk_abstract: TBA
+  talk_title: Attending to What's Not There
+  talk_abstract: |
+    When people make sense of the world, they don't only pay attention to what's actually happening. Their mind also takes them to counterfactual worlds of what could have happened. In this talk, I will illustrate how we can use eye-tracking to uncover the human mind's forays into the imaginary. I will show that when people make causal judgments about physical interactions, they don't just look at what actually happens. They mentally simulate what would have happened in relevant counterfactual situations to assess whether the cause made a difference. And when people try to figure out what happened in the past, they mentally simulate the different scenarios that could have led to the outcome. Together these studies illustrate how attention is not only driven by what's out there in the world, but also by what's hidden inside the mind.
+  
   category: speakers
   panelist: true
 
@@ -50,8 +57,10 @@ Much recent work focuses on learning in the brain using presumed biologically pl
   url: https://research.google/people/VidhyaNavalpakkam/
   photo: VN.jpg
   affil: Principal Scientist, Google Research
-  # talk_title: TBA
-  # talk_abstract: TBA
+  talk_title: Accelerating Human Attention Research via ML Applied to Smartphones
+  talk_abstract: |
+    Attention and eye movements are thought to be a window to the human mind, and have been extensively studied across Neuroscience, Psychology and HCI. However, progress in this area has been severely limited as the underlying methodology relies on specialized hardware that is expensive (upto $30,000) and hard to scale. In this talk, I will present our recent work from Google, which shows that ML applied to smartphone selfie cameras can enable accurate gaze estimation, comparable to state-of-the-art hardware based devices, at 1/100th the cost and without any additional hardware. Via extensive experiments, we show that our smartphone gaze tech can successfully replicate key findings from prior hardware-based eye movement research in Neuroscience and Psychology, across a variety of tasks including traditional oculomotor tasks, saliency analyses on natural images and reading comprehension. We also show that smartphone gaze could enable applications in improved health/wellness, for example, as a potential digital biomarker for detecting mental fatigue. These results show that smartphone-based attention has the potential to unlock advances by scaling eye movement research, and enabling new applications for improved health, wellness and accessibility, such as gaze-based interaction for patients with ALS/stroke that cannot otherwise interact with devices.
+
   category: speakers
   panelist: true
 

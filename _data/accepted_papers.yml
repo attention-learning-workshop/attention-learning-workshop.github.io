@@ -1,0 +1,422 @@
+- title: Attention as inference with third-order interactions
+  authors: Yicheng Fei, Xaq Pitkow
+  tldr: ''
+  abstract: In neuroscience, attention has been associated operationally with enhanced
+    processing of certain sensory inputs depending on external or internal contexts
+    such as cueing, salience, or mental states. In machine learning, attention usually
+    means a multiplicative mechanism whereby the weights in a weighted summation of
+    an input vector are calculated from the input itself or some other context vector.
+    In both scenarios, attention can be conceptualized as a gating mechanism. In this
+    paper, we argue that three-way interactions serve as a normative way to define
+    a gating mechanism in generative probabilistic graphical models. By going a step
+    beyond pairwise interactions, it empowers much more computational efficiency,
+    like a transistor expands possible digital computations. Models with three-way
+    interactions are also easier to scale up and thus to implement biologically. As
+    an example application, we show that a graphical model with three-way interactions
+    provides a normative explanation for divisive normalization in macaque primary
+    visual cortex, an operation adopted widely throughout the cortex to reduce redundancy,
+    save energy, and improve computation.
+  decision: Accept (Poster)
+  pdf_file: fei-attention_as_inference_with_thirdorder_interactions.pdf
+- title: Attention for Compositional Modularity
+  authors: Oleksiy Ostapenko, Pau Rodriguez, Alexandre Lacoste, Laurent Charlin
+  tldr: 'In this work we studied different attention-based module selection aproaches
+    for computational modularity. '
+  abstract: "Modularity and compositionality are promising inductive biases for addressing\
+    \ longstanding problems in machine learning such as better systematic generalization,\
+    \ as well as better transfer and lower forgetting in the context of continual\
+    \ learning. Here we study how attention-based module selection can help achieve\
+    \ compositonal modularity \u2013 i.e. decomposition of tasks into meaningful sub-tasks\
+    \ which are tackled by independent architectural entities that we call modules.\
+    \ These sub-tasks must be reusable and the system should be able to learn them\
+    \ without additional supervision. We design a simple experimental setup in which\
+    \ the model is trained to solve mathematical equations with multiple math operations\
+    \ applied sequentially. We study different attention-based module selection strategies,\
+    \ inspired by the principles introduced in the recent literature. We evaluate\
+    \ the method\u2019s ability to learn modules that can recover the underling sub-tasks\
+    \ (operation) used for data generation, as well as the ability to generalize compositionally.\
+    \ We find that meaningful module selection (i.e. routing) is the key to compositional\
+    \ generalization. Further, without access to the privileged information about\
+    \ which part of the input should be used for module selection, the routing component\
+    \ performs poorly for samples that are compositionally out of training distribution.\
+    \ We find that the the main reason for this lies in the routing component, since\
+    \ many of the tested methods perform well OOD if we report the performance of\
+    \ the best performing path at test time. Additionally, we study the role of the\
+    \ number of primitives, the number of training points and bottlenecks for modular\
+    \ specialization."
+  decision: Accept (Poster)
+  pdf_file: ostapenko-attention_for_compositional_modularity.pdf
+- title: 'Bounded logit attention: Learning to explain image classifiers'
+  authors: Thomas Baumhauer, Djordje Slijepcevic, Matthias Zeppelzauer
+  tldr: We present a trainable self-explanation module for convolutional neural networks
+    based on an attention mechanism using a novel type of activation function.
+  abstract: "Explainable artificial intelligence is the attempt to elucidate the workings\
+    \ of systems too complex to be directly accessible to human cognition through\
+    \ suitable sideinformation referred to as \u201Cexplanations\u201D. We present\
+    \ a trainable explanation module for convolutional image classifiers we call bounded\
+    \ logit attention (BLA). The BLA module learns to select a subset of the convolutional\
+    \ feature map for each input instance, which then serves as an explanation for\
+    \ the classifier\u2019s prediction. BLA overcomes several limitations of the instancewise\
+    \ feature selection method \u201Clearning to explain\u201D (L2X) introduced by\
+    \ Chen et al. (2018): 1) BLA scales to real-world sized image classification problems,\
+    \ and 2) BLA offers a canonical way to learn explanations of variable size. Due\
+    \ to its modularity BLA lends itself to transfer learning setups and can also\
+    \ be employed as a post-hoc add-on to trained classifiers. Beyond explainability,\
+    \ BLA may serve as a general purpose method for differentiable approximation of\
+    \ subset selection. In a user study we find that BLA explanations are preferred\
+    \ over explanations generated by the popular (Grad-)CAM method (Zhou et al., 2016;\
+    \ Selvaraju et al., 2017)."
+  decision: Accept (Poster)
+  pdf_file: baumhauer-bounded_logit_attention_learning_to_explain_image_classifiers.pdf
+- title: 'Faster Attention Is What You Need: A Fast Self-Attention Neural Network
+    Backbone Architecture for the Edge via Double-Condensing Attention Condensers'
+  authors: Alexander Wong, Mohammad Javad Shafiee, Saad Abbasi, Saeejith Nair, Mahmoud
+    Famouri
+  tldr: ''
+  abstract: With the growing adoption of deep learning for on-device TinyML applications,
+    there has been an ever-increasing demand for more efficient neural network backbones
+    optimized for the edge. Recently, the introduction of attention condenser networks
+    have resulted in low-footprint, highly-efficient, self-attention neural networks
+    that strike a strong balance between accuracy and speed. In this study, we introduce
+    a new faster attention condenser design called double-condensing attention condensers
+    that enable more condensed feature embedding.  We further employ a machine-driven
+    design exploration strategy that imposes best practices design constraints for
+    greater efficiency and robustness to produce the macro-micro architecture constructs
+    of the backbone.  The resulting backbone (which we name \textbf{AttendNeXt}) achieves
+    significantly higher inference throughput on an embedded ARM processor when compared
+    to several other state-of-the-art efficient backbones ($>10\times$ faster than
+    FB-Net C at higher accuracy and speed and $>10\times$ faster than MobileOne-S1
+    at smaller size) while having a small model size ($>1.37\times$ smaller than MobileNetv3-L
+    at higher accuracy and speed) and strong accuracy (1.1\% higher top-1 accuracy
+    than MobileViT XS on ImageNet at higher speed).  These promising results demonstrate
+    that exploring different efficient architecture designs and self-attention mechanisms
+    can lead to interesting new building blocks for TinyML applications.
+  decision: Accept (Poster)
+  pdf_file: wong-faster_attention_is_what_you_need_a_fast_selfattention_neural_network_backbone_architecture_for_the_edge_via_doublecondensing_attention_condensers.pdf
+- title: Fine-tuning hierarchical circuits through learned stochastic co-modulation
+  authors: Caroline Haimerl, Eero P Simoncelli, Cristina Savin
+  tldr: Targeted stochastic co-modulation in the brain introduces a label of task-relevant
+    information that can help fine-tune a hierarchical model of the visual system
+    for a new task
+  abstract: 'Attentional gating is a core mechanism supporting behavioral flexibility,
+    but its biological implementation remains uncertain. Gain modulation of neural
+    responses is likely to play a key role, but simply boosting relevant neural responses
+    can be insufficient for improving behavioral outputs, especially in hierarchical
+    circuits. Here we propose a variation of attentional gating that relies on {\em
+    stochastic} gain modulation as a dedicated indicator of task relevance, which
+    guides task-specific readout adaptation. We show that targeted stochastic modulation
+    can be effectively learned and used to fine-tune hierarchical architectures, without
+    reorganization of the underlying circuits. Simulations of such networks demonstrate
+    improvements in learning efficiency and performance in novel tasks, relative to
+    traditional attentional mechanisms based on deterministic gain increases. The
+    effectiveness of this approach relies on the availability of representational
+    bottlenecks in which the task relevant information is localized in small subpopulations
+    of neurons. Overall, this work provides a new mechanism for constructing intelligent
+    systems that can flexibly and robustly adapt to changes in task structure. '
+  decision: Accept (Oral)
+  pdf_file: haimerl-finetuning_hierarchical_circuits_through_learned_stochastic_comodulation.pdf
+- title: 'First De-Trend then Attend: Rethinking Attention for Time-Series Forecasting'
+  authors: Xiyuan Zhang, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk
+    Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Bernie Wang
+  tldr: 'We theoretically and empirically analyze relationships between variants of
+    attention models in time-series forecasting, and propose a decomposition-based
+    hybrid method that achieves better performance than current attention models. '
+  abstract: 'Transformer-based models have gained large popularity and demonstrated
+    promising results in long-term time-series forecasting in recent years. In addition
+    to learning attention in time domain, recent works also explore learning attention
+    in frequency domains (e.g., Fourier domain, wavelet domain), given that seasonal
+    patterns can be better captured in these domains. In this work, we seek to understand
+    the relationships between attention models in different time and frequency domains.
+    Theoretically, we show that attention models in different domains are equivalent
+    under linear conditions (i.e., linear kernel to attention scores). Empirically,
+    we analyze how attention models of different domains show different behaviors
+    through various synthetic experiments with seasonality, trend and noise, with
+    emphasis on the role of softmax operation therein. Both these theoretical and
+    empirical analyses motivate us to propose a new method: TDformer (Trend Decomposition
+    Transformer), that first applies seasonal-trend decomposition, and then additively
+    combines an MLP which predicts the trend component with Fourier attention which
+    predicts the seasonal component to obtain the final prediction. Extensive experiments
+    on benchmark time-series forecasting datasets demonstrate that TDformer achieves
+    state-of-the-art performance against existing attention-based models.'
+  decision: Accept (Poster)
+  pdf_file: zhang-first_detrend_then_attend_rethinking_attention_for_timeseries_forecasting.pdf
+- title: Foundations of Attention Mechanisms in Deep Neural Network Architectures
+  authors: Pierre Baldi, Roman Vershynin
+  tldr: 'We classify all attention mechanisms, identify the most important one, and
+    prove several theorems about their capacity. '
+  abstract: 'We consider the foundations of attention mechanisms in deep neural network
+    architectures and present three main results. First, we provide a systematic taxonomy
+    of all possible attention mechanisms within, or as extensions of, the McCulloch
+    and Pitt standard model into 18 classes depending on the origin type of the attention
+    signal, the target type of the attention signal, and whether the interaction type
+    is additive or multiplicative. Second, using this taxonomy, we identify three
+    key attention mechanisms: output gating, synaptic gating, and multiplexing. Output
+    gating and synaptic gating are extensions of the standard model and all current
+    attention-based architectures, including transformers, use either output gating
+    or synaptic gating, or a combination of both. Third, we develop a theory of attention
+    capacity and derive mathematical results about the capacity of basic attention
+    networks. For example, the output gating of a linear threshold gate of $n$ variables
+    by another linear threshold gate of the same $n$ variables has capacity $2n^2
+    (1+o(1))$. Perhaps surprisingly, multiplexing attention is used in the proofs
+    of these results.  Synaptic and output gating provide computationally efficient
+    extensions of the standard model allowing for {\it sparse} quadratic activation
+    functions. They can also be viewed as primitives enabling the concise collapsing
+    of multiple layers of processing in the standard model. '
+  decision: Accept (Oral)
+  pdf_file: baldi-foundations_of_attention_mechanisms_in_deep_neural_network_architectures.pdf
+- title: 'FuzzyNet: A Fuzzy Attention Module for Polyp Segmentation'
+  authors: Krushi Bharatbhai Patel, Fengjun Li, Guanghui Wang
+  tldr: 'A Fuzzy attention module to focus more on hard pixels lying around the boundary
+    region of the polyp. '
+  abstract: 'Polyp segmentation is essential for accelerating the diagnosis of colon
+    cancer. However, it is challenging because of the diverse color, texture, and
+    varying lighting effects of the polyps as well as the subtle difference between
+    the polyp and its surrounding area. To further increase the performance of polyp
+    segmentation, we propose to focus more on the problematic pixels that are harder
+    to predict. To this end, we propose a novel attention module named Fuzzy Attention
+    to focus more on the difficult pixels. Our attention module generates a high attention
+    score for fuzzy pixels usually located near the boundary region. This module can
+    be embedded in any convolution neural network-based backbone network. We embed
+    our module with various backbone networks: Res2Net, ConvNext and Pyramid Vision
+    Transformer and evaluate the models on five polyp segmentation datasets: Kvasir,
+    CVC-300, CVC-ColonDB, CVC-ClinicDB, and ETIS. Our attention module with Res2Net
+    as the backbone network outperforms the reverse attention-based PraNet by a significant
+    amount on all datasets. In addition, our module with PVT as the backbone network
+    achieves state-of-the-art accuracy of 0.937, 0.811, and 0.791 on the CVC-ClinicDB,
+    CVC-ColonDB, and ETIS, respectively, outperforming the latest SA-Net, TransFuse
+    and Polyp-PVT. '
+  decision: Accept (Poster)
+  pdf_file: patel-fuzzynet_a_fuzzy_attention_module_for_polyp_segmentation.pdf
+- title: 'Graph Attention for Spatial Prediction '
+  authors: Corban Rivera, Ryan W. Gardner
+  tldr: We introduced an allocentric graph attention approach for spatial reasoning
+    and object localization
+  abstract: Imbuing robots with human-levels of intelligence is a longstanding goal
+    of AI research.  A critical aspect of human-level intelligence is spatial reasoning.  Spatial
+    reasoning requires a robot to reason about relationships among objects in an environment
+    to estimate the positions of unseen objects.  In this work, we introduced a novel
+    graph attention approach for predicting the locations of query objects in partially
+    observable environments. We found that our approach achieved state of the art
+    results on object location prediction tasks. Then, we evaluated our approach on
+    never before seen objects, and we observed zero-shot generalization to estimate
+    the positions of new object types.
+  decision: Accept (Poster)
+  pdf_file: rivera-graph_attention_for_spatial_prediction.pdf
+- title: Hierarchical Abstraction for Combinatorial Generalization in Object Rearrangement
+  authors: Michael Chang, Alyssa Li Dayan, Franziska Meier, Thomas L. Griffiths, Sergey
+    Levine, Amy Zhang
+  tldr: We demonstrate how to generalize over a combinatorially large space of rearrangement
+    tasks from only pixel observations by constructing from video demonstrations a
+    factorized transition graph over entity state transitions that we use for control.
+  abstract: Object rearrangement is a challenge for embodied agents because solving
+    these tasks requires generalizing across a combinatorially large set of underlying
+    entities that take the value of object states. Worse, these entities are often
+    unknown and must be inferred from sensory percepts. We present a hierarchical
+    abstraction approach to uncover these underlying entities and achieve combinatorial
+    generalization from unstructured inputs. By constructing a factorized transition
+    graph over clusters of object representations inferred from pixels, we show how
+    to learn a correspondence between intervening on states of entities in the agent's
+    model and acting on objects in the environment.  We use this correspondence to
+    develop a method for control that generalizes to different numbers and configurations
+    of objects, which outperforms current offline deep RL methods when evaluated on
+    a set of simulated rearrangement and stacking tasks.
+  decision: Accept (Oral)
+  pdf_file: chang-hierarchical_abstraction_for_combinatorial_generalization_in_object_rearrangement.pdf
+- title: Improving cross-modal attention via object detection
+  authors: Yongil Kim, Yerin Hwang, Seunghyun Yoon, Hyeongu Yun, Kyomin Jung
+  tldr: ''
+  abstract: Cross-modal attention is widely used in multimodal learning to fuse information
+    from two modalities. However, most existing models only assimilate cross-modal
+    attention indirectly by relying on end-to-end learning and do not directly improve
+    the attention mechanisms.   In this paper, we propose a methodology for directly
+    enhancing cross-modal attention by utilizing object-detection models for vision-and-language
+    tasks that deal with image and text information. We used the mask of the detected
+    objects obtained by the detection model as a pseudo label, and we added a loss
+    between the attention map of the multimodal learning model and the pseudo label.
+    The proposed methodology drastically improves the performance of the baseline
+    model across all performance metrics in various popular datasets for the image-captioning
+    task. Moreover, our highly scalable methodology can be applied to any multimodal
+    task in terms of vision-and-language.
+  decision: Accept (Poster)
+  pdf_file: kim-improving_crossmodal_attention_via_object_detection.pdf
+- title: Is Attention Interpretation? A Quantitative Assessment On Sets
+  authors: Jonathan Haab, Nicolas Deutschmann, Maria Rodriguez Martinez
+  tldr: We test the interpretability of attention weights by designing Multiple Instance
+    Learning synthetic datasets with ground-truth instance-level labels.
+  abstract: "The debate around the interpretability of attention mechanisms is centered\
+    \ on whether attention scores can be used as a proxy for the relative amounts\
+    \ of signal carried by sub-components of data. We propose to study the interpretability\
+    \ of attention in the context of set machine learning, where each data point is\
+    \ composed of an unordered collection of instances with a global label. For classical\
+    \ multiple-instance-learning problems and simple extensions, there is a well-defined\
+    \ \u201Cimportance\u201D ground truth that can be leveraged to cast interpretation\
+    \ as a binary classification problem, which we can quantitatively evaluate. By\
+    \ building synthetic datasets over several data modalities, we perform a systematic\
+    \ assessment of attention-based interpretations. We find that attention distributions\
+    \ are indeed often reflective of the relative importance of individual instances,\
+    \ but that silent failures happen where a model will have high classification\
+    \ performance but attention patterns that do not align with expectations. Based\
+    \ on these observations, we propose to use ensembling to minimize the risk of\
+    \ misleading attention-based explanations."
+  decision: Accept (Oral)
+  pdf_file: haab-is_attention_interpretation_a_quantitative_assessment_on_sets.pdf
+- title: Quantifying attention via dwell time and engagement in a social media browsing
+    environment
+  authors: Ziv Epstein, Hause Lin, Gordon Pennycook, David Rand
+  tldr: We propose a two-stage model of attention for social media environments that
+    disentangles engagement and dwell, and show that attention operates differently
+    in these two stages via a dissociation.
+  abstract: 'Modern computational systems have an unprecedented ability to detect,
+    leverage and influence human attention. Prior work identified user engagement
+    and dwell time as two key metrics of attention in digital environments, but these
+    metrics have yet to be integrated into a unified model that can advance the theory
+    and practice of digital attention. We draw on work from cognitive science, digital
+    advertising, and AI to propose a two-stage model of attention for social media
+    environments that disentangles engagement and dwell. In an online experiment,
+    we show that attention operates differently in these two stages and find clear
+    evidence of dissociation: when dwelling on posts (Stage 1), users attend more
+    to sensational than credible content, but when deciding whether to engage with
+    content (Stage 2), users attend more to credible than sensational content. These
+    findings have implications for the design and development of computational systems
+    that measure and model human attention, such as newsfeed algorithms on social
+    media.'
+  decision: Accept (Poster)
+  pdf_file: epstein-quantifying_attention_via_dwell_time_and_engagement_in_a_social_media_browsing_environment.pdf
+- title: Revisiting Attention Weights as Explanations from an Information Theoretic
+    Perspective
+  authors: Bingyang Wen, Koduvayur Subbalakshmi, Fan Yang
+  tldr: 'This work evaluates the interpretability of attention weights and the results
+    show that attention weights have the potential to be used as model''s explanation. '
+  abstract: 'Attention mechanisms have recently demonstrated impressive performance
+    on a range of NLP tasks, and attention scores are often used as a proxy for model
+    explainability. However, there is a debate on whether attention weights can, in
+    fact, be used to identify the most important inputs to a model. We approach this
+    question from an information theoretic perspective by measuring the mutual information
+    between the model output and the hidden states. From extensive experiments, we
+    draw the following conclusions: (i) Additive and Deep attention mechanisms are
+    likely to be better at preserving the information between the hidden states and
+    the model output (compared to Scaled Dot-product); (ii) ablation studies indicate
+    that Additive attention can actively learn to explain the importance of its input
+    hidden representations; (iii) when attention values are nearly the same, the rank
+    order of attention values is not consistent with the rank order of the mutual
+    information (iv) Using Gumbel-Softmax with a temperature lower than one, tends
+    to produce a more skewed attention score distribution compared to softmax and
+    hence is a better choice for explainable design; (v) some building blocks are
+    better at preserving the correlation between the ordered list of mutual information
+    and attention weights order (for eg. the combination of BiLSTM encoder and Additive
+    attention). Our findings indicate that attention mechanisms do have the potential
+    to function as a shortcut to model explanations when they are carefully combined
+    with other model elements. '
+  decision: Accept (Poster)
+  pdf_file: wen-revisiting_attention_weights_as_explanations_from_an_information_theoretic_perspective.pdf
+- title: Systematic Generalization and Emergent Structures in Transformers Trained
+    on Structured Tasks
+  authors: Yuxuan Li, James McClelland
+  tldr: We present a causal transformer that learns structured, algorithmic tasks
+    and generalizes to longer sequences, and unpack its computation in relation to
+    task structures by analyzing attention patterns and latent representations.
+  abstract: Transformer networks have seen great success in natural language processing
+    and machine vision, where task objectives such as next word prediction and image
+    classification benefit from nuanced context sensitivity across high-dimensional
+    inputs. However, there is an ongoing debate about how and when transformers can
+    acquire highly structured behavior and achieve systematic generalization. Here,
+    we explore how well a causal transformer can perform a set of algorithmic tasks,
+    including copying, sorting, and hierarchical compositions of these operations.
+    We demonstrate strong generalization to sequences longer than those used in training
+    by replacing the standard positional encoding typically used in transformers with
+    labels arbitrarily paired with items in the sequence. We searched for the layer
+    and head configuration sufficient to solve the task, and performed attention ablation
+    and analyzed encoded representations. We show that two-layer transformers learn
+    generalizable solutions to multi-level problems, develop signs of systematic task
+    decomposition, and exploit shared computation across related tasks. These results
+    provide key insights into the possible structures of within-task and cross-task
+    computations that stacks of attention layers can afford.
+  decision: Accept (Poster)
+  pdf_file: li-systematic_generalization_and_emergent_structures_in_transformers_trained_on_structured_tasks.pdf
+- title: 'TDLR: Top Semantic-Down Syntactic Language Representation'
+  authors: Vipula Rawte, Megha Chakraborty, Kaushik Roy, Manas Gaur, Keyur Faldu,
+    Prashant Kikani, Hemang Akbari, Amit P. Sheth
+  tldr: TDLR framework to infuse knowledge (common-sense) in language models in a
+    top-down (semantic-syntactic) manner.
+  abstract: 'Language understanding involves processing text with both the grammatical
+    and common-sense contexts of the text fragments. The text "I went to the grocery
+    store and brought home a car" requires both the grammatical context (syntactic)
+    and common-sense context (semantic) to capture the oddity in the sentence. Contextualized
+    text representations learned by Language Models (LMs) are expected to capture
+    a variety of syntactic and semantic contexts from large amounts of training data
+    corpora. Recent work such as ERNIE has shown that infusing the knowledge contexts,
+    where they are available in LMs, results in significant performance gains on General
+    Language Understanding (GLUE) benchmark tasks. However, to our knowledge, no knowledge-aware
+    model has attempted to infuse knowledge through top-down semantics-driven syntactic
+    processing (Eg: Common-sense to Grammatical) and directly operated on the attention
+    mechanism that LMs leverage to learn the data context. We propose a learning framework
+    Top-Down Language Representation (TDLR) to infuse common-sense semantics into
+    LMs. In our implementation, we build on BERT for its rich syntactic knowledge
+    and use the knowledge graphs ConceptNet and WordNet to infuse semantic knowledge. '
+  decision: Accept (Poster)
+  pdf_file: rawte-tdlr_top_semanticdown_syntactic_language_representation.pdf
+- title: 'The Paradox of Choice: On the Role of Attention in Hierarchical Reinforcement
+    Learning'
+  authors: Andrei Cristian Nica, Khimya Khetarpal, Doina Precup
+  tldr: We characterize affordances as a hard-attention mechanism in hierarchical
+    RL and investigate the role of hard versus soft attention in different scenarios,
+    empirically demonstrating the "paradox of choice".
+  abstract: 'Decision-making AI agents are often faced with two important challenges:
+    the depth of the planning horizon, and the branching factor due to having many
+    choices. Hierarchical reinforcement learning methods aim to solve the first problem,
+    by providing shortcuts that skip over multiple time steps. To cope with the breadth,
+    it is desirable to restrict the agent''s attention at each step to a reasonable
+    number of possible choices. The concept of affordances (Gibson, 1977) suggests
+    that only certain actions are feasible in certain states. In this work, we first
+    characterize "affordances" as a "hard" attention mechanism that strictly limits
+    the available choices of temporally extended options. We then investigate the
+    role of hard versus soft attention in training data collection, abstract value
+    learning in long-horizon tasks, and handling a growing number of choices. To this
+    end, we present an online, model-free algorithm to learn affordances that can
+    be used to further learn subgoal options. Finally, we identify and empirically
+    demonstrate the settings in which the "paradox of choice" arises, i.e. when having
+    fewer but more meaningful choices improves the learning speed and performance
+    of a reinforcement learning agent.'
+  decision: Accept (Poster)
+  pdf_file: nica-the_paradox_of_choice_on_the_role_of_attention_in_hierarchical_reinforcement_learning.pdf
+- title: Unlocking Slot Attention by Changing Optimal Transport Costs
+  authors: Yan Zhang, David W Zhang, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees
+    G. M. Snoek
+  tldr: Slot attention can do tiebreaking by changing the costs for optimal transport
+    to minimize entropy, which improves results significantly on object detection
+  abstract: "Slot attention is a successful method for object-centric modeling with\
+    \ images and videos for tasks like unsupervised object discovery. However, set-equivariance\
+    \ limits its ability to perform tiebreaking, which makes distinguishing similar\
+    \ structures difficult \u2013 a task crucial for vision problems. To fix this,\
+    \ we cast cross-attention in slot attention as an optimal transport (OT) problem\
+    \ that has solutions with the desired tiebreaking properties. We then propose\
+    \ an entropy minimization module that combines the tiebreaking properties of unregularized\
+    \ OT with the speed of regularized OT. We evaluate our method on CLEVR object\
+    \ detection and observe significant improvements from 53% to 91% on a strict average\
+    \ precision metric."
+  decision: Accept (Poster)
+  pdf_file: zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf
+- title: Wide Attention Is The Way Forward For Transformers?
+  authors: Jason Ross Brown, Yiren Zhao, Ilia Shumailov, Robert D. Mullins
+  tldr: Widening the attention layer in a Transformer and only using a single layer
+    is surprisingly effective, with a number of advantages.
+  abstract: The Transformer is an extremely powerful and prominent deep learning architecture.
+    In this work, we challenge the commonly held belief in deep learning that going
+    deeper is better, and show an alternative design approach that is building wider
+    attention Transformers. We demonstrate that wide single layer Transformer models
+    can compete with or outperform deeper ones in a variety of Natural Language Processing
+    (NLP) tasks when both are trained from scratch. The impact of changing the model
+    aspect ratio on Transformers is then studied systematically. This ratio balances
+    the number of layers and the number of attention heads per layer while keeping
+    the total number of attention heads and all other hyperparameters constant. On
+    average, across 4 NLP tasks and 10 attention types, single layer wide models perform
+    0.3% better than their deep counterparts. We show an in-depth evaluation and demonstrate
+    how wide models require a far smaller memory footprint and can run faster on commodity
+    hardware, in addition, these wider models are also more interpretable. For example,
+    a single layer Transformer on the IMDb byte level text classification has 3.1x
+    faster inference latency on a CPU than its equally accurate deeper counterpart,
+    and is half the size. We therefore put forward wider and shallower models as a
+    viable and desirable alternative for small models on NLP tasks, and as an important
+    area of research for domains beyond this.
+  decision: Accept (Oral)
+  pdf_file: brown-wide_attention_is_the_way_forward_for_transformers.pdf

@@ -313,6 +313,15 @@ span.award-other img {
   padding-bottom: 8px;
 }
 
+.abstract-link .paper-link {
+  font-size: small;
+}
+
+div.paper-tldr {
+  padding-left: 2em;
+  font-style: italic;
+}
+
 div.paper {
   padding: 15px 0px 15px 25px;
 }

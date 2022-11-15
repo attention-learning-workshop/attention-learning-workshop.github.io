@@ -1,0 +1,30 @@
+
+
+{% assign abstract_id = paper.pdf_file | remove: ".pdf" %}
+
+<div class="row paper">
+<div class="col-sm-9">
+		<span class="title">{{ paper.title }}</span>
+		<span class="authors">{{ paper.authors }}</span>
+</div>
+
+<div class="col-sm-3" style="text-align: right;">
+<a href="#{{ abstract_id }}-parent" role="button" data-toggle="collapse" href="#{{ abstract_id }}" aria-expanded="false" aria-controls="{{ abstract_id }}" class="abstract-link">[expand abstract]</a>
+
+<a href="{{ paper.pdf_file | prepend:"papers/" | prepend: page.data_dir }}" class="pdf-link">[pdf]</a>
+</div>
+<div class="clearfix"></div>
+
+{% if paper.tldr %}
+	<div class="paper-tldr">{{ paper.tldr }}</div>
+{% endif %}
+
+<div id="{{ abstract_id }}" class="collapse" aria-labelledby="#{{ abstract_id }}-parent" > 
+	<div class="well">
+	{{ paper.abstract }}
+	</div>
+</div>
+
+</div>
+
+

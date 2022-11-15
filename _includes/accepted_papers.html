@@ -1,0 +1,17 @@
+
+
+## Accepted Papers
+
+### Oral Presentations
+
+{% assign accept_oral = site.data.accepted_papers | where: "decision", "Accept (Oral)" %}
+{% for paper in accept_oral %}
+	{% include accepted_paper.html %}
+{% endfor %}
+
+### Poster Presentations
+
+{% assign accept_poster = site.data.accepted_papers | where: "decision", "Accept (Poster)" %}
+{% for paper in accept_poster %}
+	{% include accepted_paper.html %}
+{% endfor %}

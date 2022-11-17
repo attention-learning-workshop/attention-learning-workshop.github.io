@@ -271,6 +271,9 @@ span.award-other img {
   font-size: 2.5em;
 }
 
+.subevent {
+  font-size: smaller;
+}
 
 .sponsor {
   text-align: center;

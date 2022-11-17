@@ -3,17 +3,26 @@
         <thead class="thead-light">
           <tr>
             <th>Time in CST</th>
-            <th>Event name</th>
-            <th>Descriptiomn</th>
+            <th>Event</th>
           </tr>
         </thead>
 
         <tbody>
             {% for event in site.data.schedule %}
             <tr>
-                <td style="text-align: right; padding-right: 2em;">{{ event.start_time }} - {{ event.end_time }}</td>
-                <td>{{ event.name }}</td>
-                <td>{{ event.description | markdownify }}</td>
+                <td style="text-align: right; padding-right: 2em; min-width: 200px">
+                  {{ event.start_time }} - {{ event.end_time }}
+                  {% for sub_event in event.sub_events %}
+                    {% if sub_event.start_time %}
+                      <br /><span class="subevent">{{ sub_event.start_time }} - {{ sub_event.end_time }}</span>
+                    {% endif %}
+                  {% endfor %}
+                  </td>
+                <td>{{ event.name }}
+                  {% for sub_event in event.sub_events %}
+                    <br /><span class="subevent">{{ sub_event.name }}</span>
+                  {% endfor %}
+                </td>
             </tr>
             {% endfor %}
         </tbody>

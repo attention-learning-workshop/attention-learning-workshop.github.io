@@ -1,36 +1,70 @@
 - name: Talks Session I
   start_time: "9:00 AM"
   end_time: "11:00 AM"
-  description: |
-    - Workshop Intro (10 mins)
-    - Invited Speaker Talks (20 mins each)
-    - Paper Presentations + Q&A (15 mins each)
-- name: Panel Discussion I
+  sub_events:
+  - name: Workshop Intro
+    start_time: "9:00 AM"
+    end_time: "9:05 AM"
+  - name: Ida Momennejad
+    start_time: "9:05 AM"
+    end_time: "9:25 AM"
+  - name: James Whittington
+    start_time: "9:25 AM"
+    end_time: "9:45 AM"
+  - name: Henny Admoni
+    start_time: "9:45 AM"
+    end_time: "10:05 AM"
+  - name: Tobias Gerstenberg
+    start_time: "10:05 AM"
+    end_time: "10:25 AM"
+  - name: |
+      Spotlight Talks: 
+      <ul><li>Foundations of Attention Mechanisms in Deep Neural Network Architectures</li>
+      <li>Is Attention Interpretation? A Quantitative Assessment On Sets</li></ul>
+    start_time: "10:25 AM"
+    end_time: "11:00 AM"
+- name: "In-Person Panel Discussion"
   start_time: "11:00 AM"
   end_time: "12:00 PM"
-  description: |
-    Panelists TBA
+  sub_events:
+    - name: "Panelists: Megan deBettencourt, Cyril Zhang, James Whittington, Ida Monennejad, Ramakrishna Vedantam, Erin Grant, Tobias Gerstenberg"
+      start_time:
+      end_time: 
 - name: Lunch and Virtual Social Event
   start_time: "12:00 PM"
   end_time: "1:00 PM"
-  description: |
-    GatherTown/Zoom breakout rooms 
 - name: Coffee Break / Poster Session
   start_time: "1:00 PM"
   end_time: "2:00 PM"
-  description: ""
 - name: Talks Session II
   start_time: "2:00 PM"
   end_time: "4:00 PM"
-  description: |
-    - Invited Speaker Talks (20 mins each)
-    - Paper Presentations + Q&A (15 mins each)
+  sub_events:
+  - name: Shalini De Mello
+    start_time: "2:00 PM"
+    end_time: "2:20 PM"
+  - name: Pieter Roelfsema
+    start_time: "2:20 PM"
+    end_time: "2:40 PM"
+  - name: Erin Grant
+    start_time: "2:40 PM"
+    end_time: "3:00 PM"
+  - name: Vidhya Navalpakkam
+    start_time: "3:00 PM"
+    end_time: "3:20 PM"
+  - name: |
+      Spotlight Talks: 
+      <ul><li>Wide Attention Is The Way Forward For Transformers</li>
+      <li>Fine-tuning hierarchical circuits through learned stochastic co-modulation</li>
+      <li>Hierarchical Abstraction for Combinatorial Generalization in Object Rearrangement</li></ul>
+    start_time: "3:20 PM"
+    end_time: "4:00 PM"
 - name: Coffee Break / Poster Session
   start_time: "4:00 PM"
   end_time: "5:00 PM"
   description: ""
-- name: Panel Discussion II
+- name: Virtual Panel Discussion
   start_time: "5:00 PM"
   end_time: "6:00 PM"
   description: |
-    Panelists TBA
+    Panelists: Shalini De Mello, Henny Admoni, David Ha, Vidhya Navalpakkam, Brian Kingsbury, John Langford, Ashish Vaswani

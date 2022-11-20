@@ -66,6 +66,7 @@
 - name: Virtual Panel Discussion
   start_time: "5:00 PM"
   end_time: "6:00 PM"
-  - name: "Panelists: Shalini De Mello, Henny Admoni, David Ha, Vidhya Navalpakkam, Brian Kingsbury, John Langford, Ashish Vaswani"
+  sub_events:
+    - name: "Panelists: Shalini De Mello, Henny Admoni, David Ha, Vidhya Navalpakkam, Brian Kingsbury, John Langford, Ashish Vaswani"
       start_time:
       end_time: 

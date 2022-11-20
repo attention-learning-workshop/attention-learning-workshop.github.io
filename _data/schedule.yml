@@ -27,7 +27,7 @@
   start_time: "11:00 AM"
   end_time: "12:00 PM"
   sub_events:
-    - name: "Panelists: Megan deBettencourt, Cyril Zhang, James Whittington, Ida Monennejad, Ramakrishna Vedantam, Erin Grant, Tobias Gerstenberg"
+    - name: "Panelists: Megan deBettencourt, Tobias Gerstenberg, Erin Grant, Ida Monennejad, Ramakrishna Vedantam, James Whittington, Cyril Zhang"
       start_time:
       end_time: 
 - name: Lunch and Virtual Social Event
@@ -67,6 +67,6 @@
   start_time: "5:00 PM"
   end_time: "6:00 PM"
   sub_events:
-    - name: "Panelists: Shalini De Mello, Henny Admoni, David Ha, Vidhya Navalpakkam, Brian Kingsbury, John Langford, Ashish Vaswani"
+    - name: "Panelists: Henny Admoni, David Ha, Brian Kingsbury, John Langford, Shalini De Mello, Vidhya Navalpakkam, Ashish Vaswani"
       start_time:
       end_time: 

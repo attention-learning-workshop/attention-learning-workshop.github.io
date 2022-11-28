@@ -1,3 +1,3 @@
 {% for paper in site.data.papers %}
-{{ paper.author }} ({{ paper.year }}). {{ paper.title }}. *{{ paper.venue }}*. <{{ paper.link }}>
+{{ paper.author }} ({{ paper.year }}). {{ paper.title }}. *{{ paper.venue }}*. [Link]({{ paper.link }})
 {% endfor %}

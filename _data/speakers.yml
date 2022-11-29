@@ -45,8 +45,9 @@
   url: https://research.nvidia.com/person/shalini-gupta
   photo: SM.jpg
   affil: Principal Research Scientist, NVIDIA
-  # talk_title: TBA
-  # talk_abstract: TBA
+  talk_title: Exploiting Human Interactions to Learn Human Attention
+  talk_abstract: |
+    Unconstrained eye gaze estimation using ordinary webcams in smart phones and tablets is immensely useful for many applications. However, current eye gaze estimators are limited in their ability to generalize to a wide range of unconstrained conditions, including, head poses, eye gaze angles and lighting conditions, etc. This is mainly due to the lack of availability of gaze training data in in-the-wild conditions. Notably, eye gaze is a natural form of human communication while humans interact with each other. Visual data (videos or images) containing human interaction are also abundantly available on the internet and are constantly growing as people upload more. Could we leverage visual data containing human interaction to learn unconstrained gaze estimators? In this talk we will describe our foray into addressing this challenging problem. Our findings point to the great potential of human interaction data as a low cost and ubiquitously available source of training data for unconstrained gaze estimators. By lessening the burden of specialized data collection and annotation, we hope to foster greater real-word adoption and proliferation of gaze estimation technology in end-user devices.
   category: speakers
   panelist: true
 

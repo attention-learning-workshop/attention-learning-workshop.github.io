@@ -2,8 +2,9 @@
   url: https://www.momen-nejad.org/
   photo: IM.jpg
   affil: Principal Researcher, Microsoft Research
-  # talk_title: TBA
-  # talk_abstract: TBA
+  talk_title: Attention in Task-sets, Planning, and the Prefrontal Cortex
+  talk_abstract: |
+    What we pay attention to depends on the context and the task at hand. On the one hand, the prefrontal cortex can modulate how to direct attention outward to the external world. On the other hand, attention to internal states enables metacognition and configuration of internal states using repertoires of memories and skills. I will first discuss ongoing work in which, inspired by the role of attention in affordances and task-sets, we analyze large scale game play data in the XboX 3D game Bleeding Edge in an interpretable way. I will briefly mention ongoing directions including decoding of plans during chess based on eye-tracking. I will conclude with how future models of multi-scale predictive representations could include prefrontal cortical modulation during planning and task performance.
   category: speakers
   panelist: true
 
@@ -66,8 +67,9 @@
   url: https://eringrant.github.io/
   photo: EG.png
   affil: Senior Research Fellow, University College London
-  # talk_title: TBA
-  # talk_abstract: TBA
+  talk_title: Attention as interpretable information processing in machine learning systems
+  talk_abstract: |
+    Attention in psychology and neuroscience conceptualizes how the human mind prioritizes information as a result of limited resources. Machine learning systems do not necessarily share the same limits, but implementations of attention have nevertheless proven useful in machine learning across a broad set of domains. Why is this so? I will focus on one aspect: interpretability, which is an ongoing challenge for machine learning systems. I will discuss two different implementations of attention in machine learning that tie closely to conceptualizations of attention in two domains of psychological research. Using these case studies as a starting point, I will discuss the broader strengths and drawbacks of using attention to constrain and interpret how machine learning systems process information. I will end with a problem statement highlighting the need to move away from localized notions to a global view of how attention-like mechanisms modulate information processing in artificial systems.
   category: speakers
   panelist: true
 

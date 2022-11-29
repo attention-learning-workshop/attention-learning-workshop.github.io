@@ -67,7 +67,7 @@
   url: https://eringrant.github.io/
   photo: EG.png
   affil: Senior Research Fellow, University College London
-  talk_title: Attention as interpretable information processing in machine learning systems
+  talk_title: Attention as Interpretable Information Processing in Machine Learning Systems
   talk_abstract: |
     Attention in psychology and neuroscience conceptualizes how the human mind prioritizes information as a result of limited resources. Machine learning systems do not necessarily share the same limits, but implementations of attention have nevertheless proven useful in machine learning across a broad set of domains. Why is this so? I will focus on one aspect: interpretability, which is an ongoing challenge for machine learning systems. I will discuss two different implementations of attention in machine learning that tie closely to conceptualizations of attention in two domains of psychological research. Using these case studies as a starting point, I will discuss the broader strengths and drawbacks of using attention to constrain and interpret how machine learning systems process information. I will end with a problem statement highlighting the need to move away from localized notions to a global view of how attention-like mechanisms modulate information processing in artificial systems.
   category: speakers

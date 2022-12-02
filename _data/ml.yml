@@ -1,0 +1,73 @@
+- title: Attention is All You Need
+  author: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin
+  year: 2017
+  venue: NeurIPS
+  link: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+
+- title: Human Gaze Assisted Artificial Intelligence -- A Review
+  author: Ruohan Zhang, Akanksha Saran, Bo Liu, Yifeng Zhu, Sihang Guo, Scott Niekum, Dana H. Ballard, Mary M. Hayhoe
+  year: 2020
+  venue: IJCAI
+  link: https://www.ijcai.org/Proceedings/2020/0689.pdf
+
+- title: Neural nets learn to program neural nets with fast weights—like today's Transformer variants
+  author: Jürgen Schmidhuber
+  year: 2020
+  venue: AI Blog, Jürgen Schmidhuber
+  link: https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html
+
+- title: End-to-End Differentiable Sequential Neural Attention
+  author: Jürgen Schmidhuber
+  year: 2021
+  venue: AI Blog, Jürgen Schmidhuber
+  link: https://people.idsia.ch/~juergen/neural-attention-1990-1993.html
+
+- title: Efficiently Guiding Imitation Learning Agents with Human Gaze
+  author: Akanksha Saran, Ruohan Zhang, Elaine S. Short, and Scott Niekum
+  year: 2021
+  venue: AAMAS
+  link: https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1109.pdf
+
+- title: Self-supervised Attention-aware Reinforcement Learning
+  author: Haiping Wu, Khimya Khetarpal, and Doina Precup
+  year: 2021
+  venue: AAAI 
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042 
+
+- title: Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models
+  author: Alex Lamb, Riashat Islam1, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2207.08229.pdf
+
+- title: Attend before you act -- Leveraging human visual attention for continual learning
+  author: Khimya Khetarpal, and Doina Precup
+  year: 2018
+  venue: ICML Workshop on Lifelong Learning - A Reinforcement Learning Approach
+  link: https://arxiv.org/pdf/1807.09664.pdf
+
+- title: Transformers generalize differently from information stored in context vs in weights
+  author: Stephanie Chan, Ishita Dasgupta, Junkyung Kim, Dharshan Kumaran, Andrew K. Lampinen, and Felix Hill
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2210.05675.pdf
+
+- title: In-context Reinforcement Learning with Algorithm Distillation
+  author: Michael Laskin, Luyu Wang, Junhyuk Oh, Emilio Parisotto, Stephen Spencer, Richie Steigerwald, DJ Strouse, Steven Hansen, Angelos Filos, Ethan Brooks, Maxime Gazeau, Himanshu Sahni, Satinder Singh, Volodymyr Mnih
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/abs/2210.14215
+
+- title: Wide Attention Is The Way Forward For Transformers
+  author: Jason Ross Brown, Yiren Zhao, Ilia Shumailov, and Robert D. Mullins.
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2210.00640.pdf
+
+- title: Transformers Learn Shortcuts to Automata
+  author: Bingbin Liu, Jordan T. Ash, Surbhi Goel, Akshay Krishnamurthy, Cyril Zhang
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2210.10749.pdf
+
+

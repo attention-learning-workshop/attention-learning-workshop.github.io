@@ -27,7 +27,7 @@
   start_time: "11:00 AM"
   end_time: "12:00 PM"
   sub_events:
-    - name: "Panelists: Megan deBettencourt, Tobias Gerstenberg, Erin Grant, Ida Monennejad, Ramakrishna Vedantam, James Whittington, Cyril Zhang"
+    - name: "Panelists: Megan deBettencourt, Tobias Gerstenberg, Erin Grant, Ida Momennejad, Ramakrishna Vedantam, James Whittington, Cyril Zhang"
       start_time:
       end_time: 
 - name: Lunch and Virtual Social Event

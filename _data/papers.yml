@@ -1,86 +1,85 @@
-- name: CogSci and Neuroscience
-  - title: Eye Movements in Natural Behavior
-    author: Mary M. Hayhoe, Dana H. Ballard
-    year: 2005
-    venue: Trends in Cognitive Sciences
-    link: https://www.sciencedirect.com/science/article/pii/S1364661305000598
 
-  - title: Attention in Psychology, Neuroscience, and Machine Learning
-    author: Grace W. Lindsay
-    year: 2020
-    venue: Front. Comput. Neurosci.
-    link: https://doi.org/10.3389/fncom.2020.00029
+- title: Eye Movements in Natural Behavior
+  author: Mary M. Hayhoe, Dana H. Ballard
+  year: 2005
+  venue: Trends in Cognitive Sciences
+  link: https://www.sciencedirect.com/science/article/pii/S1364661305000598
 
-- name: Machine Learning, Deep Learning and Reinforcement Learning
-  - title: Attention is All You Need
-    author: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin
-    year: 2017
-    venue: NeurIPS
-    link: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+- title: Attention in Psychology, Neuroscience, and Machine Learning
+  author: Grace W. Lindsay
+  year: 2020
+  venue: Front. Comput. Neurosci.
+  link: https://doi.org/10.3389/fncom.2020.00029
 
-  - title: Eye-hand behavior in human-robot shared manipulation
-    author: Reuben M Aronson, Thiago Santini, Thomas C Kübler, Enkelejda Kasneci, Siddhartha Srinivasa, Henny Admoni
-    year: 2018
-    venue: HRI
-    link: https://par.nsf.gov/servlets/purl/10066120
+- title: Attention is All You Need
+  author: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin
+  year: 2017
+  venue: NeurIPS
+  link: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
 
-  - title: Understanding Teacher Gaze Patterns for Robot Learning
-    author: Akanksha Saran, Elaine Schaertl Short, Andrea Thomaz, and Scott Niekum
-    year: 2019
-    venue: PMLR
-    link: http://proceedings.mlr.press/v100/saran20a/saran20a.pdf
+- title: Eye-hand behavior in human-robot shared manipulation
+  author: Reuben M Aronson, Thiago Santini, Thomas C Kübler, Enkelejda Kasneci, Siddhartha Srinivasa, Henny Admoni
+  year: 2018
+  venue: HRI
+  link: https://par.nsf.gov/servlets/purl/10066120
+
+- title: Understanding Teacher Gaze Patterns for Robot Learning
+  author: Akanksha Saran, Elaine Schaertl Short, Andrea Thomaz, and Scott Niekum
+  year: 2019
+  venue: PMLR
+  link: http://proceedings.mlr.press/v100/saran20a/saran20a.pdf
 
 
-  - title: Human Gaze Assisted Artificial Intelligence, A Review
-    author: Ruohan Zhang, Akanksha Saran, Bo Liu, Yifeng Zhu, Sihang Guo, Scott Niekum, Dana H. Ballard, Mary M. Hayhoe
-    year: 2020
-    venue: IJCAI
-    link: https://www.ijcai.org/Proceedings/2020/0689.pdf
+- title: Human Gaze Assisted Artificial Intelligence, A Review
+  author: Ruohan Zhang, Akanksha Saran, Bo Liu, Yifeng Zhu, Sihang Guo, Scott Niekum, Dana H. Ballard, Mary M. Hayhoe
+  year: 2020
+  venue: IJCAI
+  link: https://www.ijcai.org/Proceedings/2020/0689.pdf
 
-  - title: Eye Gaze for Assistive Manipulation
-    author: Reuben M Aronson, Henny Admoni
-    year: 2020
-    venue: HRI
-    link: https://dl.acm.org/doi/pdf/10.1145/3371382.3377434
+- title: Eye Gaze for Assistive Manipulation
+  author: Reuben M Aronson, Henny Admoni
+  year: 2020
+  venue: HRI
+  link: https://dl.acm.org/doi/pdf/10.1145/3371382.3377434
 
-  - title: Neural nets learn to program neural nets with fast weights—like today's Transformer variants
-    author: Jürgen Schmidhuber
-    year: 2020
-    venue: AI Blog, Jürgen Schmidhuber
-    link: https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html
+- title: Neural nets learn to program neural nets with fast weights—like today's Transformer variants
+  author: Jürgen Schmidhuber
+  year: 2020
+  venue: AI Blog, Jürgen Schmidhuber
+  link: https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html
 
-  - title: End-to-End Differentiable Sequential Neural Attention
-    author: Jürgen Schmidhuber
-    year: 2021
-    venue: AI Blog, Jürgen Schmidhuber
-    link: https://people.idsia.ch/~juergen/neural-attention-1990-1993.html
+- title: End-to-End Differentiable Sequential Neural Attention
+  author: Jürgen Schmidhuber
+  year: 2021
+  venue: AI Blog, Jürgen Schmidhuber
+  link: https://people.idsia.ch/~juergen/neural-attention-1990-1993.html
 
-  - title: Efficiently Guiding Imitation Learning Agents with Human Gaze
-    author: Akanksha Saran, Ruohan Zhang, Elaine S. Short, and Scott Niekum
-    year: 2021
-    venue: AAMAS
-    link: https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1109.pdf
+- title: Efficiently Guiding Imitation Learning Agents with Human Gaze
+  author: Akanksha Saran, Ruohan Zhang, Elaine S. Short, and Scott Niekum
+  year: 2021
+  venue: AAMAS
+  link: https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1109.pdf
 
-  - title: Self-supervised Attention-aware Reinforcement Learning
-    author: Haiping Wu, Khimya Khetarpal, and Doina Precup
-    year: 2021
-    venue: AAAI 
-    link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042 
+- title: Self-supervised Attention-aware Reinforcement Learning
+  author: Haiping Wu, Khimya Khetarpal, and Doina Precup
+  year: 2021
+  venue: AAAI 
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/17235/17042 
 
-  - title: Inferring Goals with Gaze during Teleoperated Manipulation
-    author: Reuben M. Aronson, Nadia Almutlak, and Henny Admoni
-    year: 2021
-    venue: IROS
-    link: http://harp.ri.cmu.edu/assets/pubs/aronson_iros21_inferring_gaze_goal.pdf 
+- title: Inferring Goals with Gaze during Teleoperated Manipulation
+  author: Reuben M. Aronson, Nadia Almutlak, and Henny Admoni
+  year: 2021
+  venue: IROS
+  link: http://harp.ri.cmu.edu/assets/pubs/aronson_iros21_inferring_gaze_goal.pdf 
 
-  - title: Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models
-    author: Alex Lamb, Riashat Islam1, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford
-    year: 2022
-    venue: arXiv
-    link: https://arxiv.org/pdf/2207.08229.pdf
+- title: Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models
+  author: Alex Lamb, Riashat Islam1, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford
+  year: 2022
+  venue: arXiv
+  link: https://arxiv.org/pdf/2207.08229.pdf
 
-  - title: Gaze Complements Control Input for Goal Prediction During Assisted Teleoperation
-    author: Reuben M Aronson, Henny Admoni
-    year: 2022
-    venue: RSS
-    link: http://harp.ri.cmu.edu/assets/pubs/aronson_gaze_to_goal_rss22.pdf
+- title: Gaze Complements Control Input for Goal Prediction During Assisted Teleoperation
+  author: Reuben M Aronson, Henny Admoni
+  year: 2022
+  venue: RSS
+  link: http://harp.ri.cmu.edu/assets/pubs/aronson_gaze_to_goal_rss22.pdf

@@ -18,6 +18,7 @@
     save energy, and improve computation.
   decision: Accept (Poster)
   pdf_file: fei-attention_as_inference_with_thirdorder_interactions.pdf
+  video: https://www.youtube.com/watch?v=L_Y5xABhFlA&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=1
 - title: Attention for Compositional Modularity
   authors: Oleksiy Ostapenko, Pau Rodriguez, Alexandre Lacoste, Laurent Charlin
   tldr: 'In this work we studied different attention-based module selection aproaches
@@ -46,6 +47,7 @@
     \ specialization."
   decision: Accept (Poster)
   pdf_file: ostapenko-attention_for_compositional_modularity.pdf
+  video: https://www.youtube.com/watch?v=P9Fwlab43qg&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=2
 - title: 'Bounded logit attention: Learning to explain image classifiers'
   authors: Thomas Baumhauer, Djordje Slijepcevic, Matthias Zeppelzauer
   tldr: We present a trainable self-explanation module for convolutional neural networks
@@ -68,6 +70,7 @@
     \ Selvaraju et al., 2017)."
   decision: Accept (Poster)
   pdf_file: baumhauer-bounded_logit_attention_learning_to_explain_image_classifiers.pdf
+  video: https://www.youtube.com/watch?v=E3cJZERU8a4&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=3
 - title: 'Faster Attention Is What You Need: A Fast Self-Attention Neural Network
     Backbone Architecture for the Edge via Double-Condensing Attention Condensers'
   authors: Alexander Wong, Mohammad Javad Shafiee, Saad Abbasi, Saeejith Nair, Mahmoud
@@ -93,6 +96,7 @@
     can lead to interesting new building blocks for TinyML applications.
   decision: Accept (Poster)
   pdf_file: wong-faster_attention_is_what_you_need_a_fast_selfattention_neural_network_backbone_architecture_for_the_edge_via_doublecondensing_attention_condensers.pdf
+  video: https://www.youtube.com/watch?v=2EAQ3rxhsYg&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=4
 - title: Fine-tuning hierarchical circuits through learned stochastic co-modulation
   authors: Caroline Haimerl, Eero P Simoncelli, Cristina Savin
   tldr: Targeted stochastic co-modulation in the brain introduces a label of task-relevant
@@ -115,6 +119,7 @@
     systems that can flexibly and robustly adapt to changes in task structure. '
   decision: Accept (Oral)
   pdf_file: haimerl-finetuning_hierarchical_circuits_through_learned_stochastic_comodulation.pdf
+  video: https://nips.cc/virtual/2022/workshop/49996#collapse-sl-57624
 - title: 'First De-Trend then Attend: Rethinking Attention for Time-Series Forecasting'
   authors: Xiyuan Zhang, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk
     Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Bernie Wang
@@ -140,6 +145,7 @@
     state-of-the-art performance against existing attention-based models.'
   decision: Accept (Poster)
   pdf_file: zhang-first_detrend_then_attend_rethinking_attention_for_timeseries_forecasting.pdf
+  video: https://www.youtube.com/watch?v=jGT7m46qqz4&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=5
 - title: Foundations of Attention Mechanisms in Deep Neural Network Architectures
   authors: Pierre Baldi, Roman Vershynin
   tldr: 'We classify all attention mechanisms, identify the most important one, and
@@ -164,6 +170,7 @@
     of multiple layers of processing in the standard model. '
   decision: Accept (Oral)
   pdf_file: baldi-foundations_of_attention_mechanisms_in_deep_neural_network_architectures.pdf
+  video: https://nips.cc/virtual/2022/workshop/49996#collapse-sl-57629
 - title: 'FuzzyNet: A Fuzzy Attention Module for Polyp Segmentation'
   authors: Krushi Bharatbhai Patel, Fengjun Li, Guanghui Wang
   tldr: 'A Fuzzy attention module to focus more on hard pixels lying around the boundary
@@ -187,6 +194,7 @@
     and Polyp-PVT. '
   decision: Accept (Poster)
   pdf_file: patel-fuzzynet_a_fuzzy_attention_module_for_polyp_segmentation.pdf
+  video: https://www.youtube.com/watch?v=DbOrvKHU1x8&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=6
 - title: 'Graph Attention for Spatial Prediction '
   authors: Corban Rivera, Ryan W. Gardner
   tldr: We introduced an allocentric graph attention approach for spatial reasoning
@@ -202,6 +210,7 @@
     the positions of new object types.
   decision: Accept (Poster)
   pdf_file: rivera-graph_attention_for_spatial_prediction.pdf
+  video: https://www.youtube.com/watch?v=eiVs_cfDXM0&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=7
 - title: Hierarchical Abstraction for Combinatorial Generalization in Object Rearrangement
   authors: Michael Chang, Alyssa Li Dayan, Franziska Meier, Thomas L. Griffiths, Sergey
     Levine, Amy Zhang
@@ -222,6 +231,7 @@
     a set of simulated rearrangement and stacking tasks.
   decision: Accept (Oral)
   pdf_file: chang-hierarchical_abstraction_for_combinatorial_generalization_in_object_rearrangement.pdf
+  video: https://slideslive.com/embed/presentation/38994461?embed_container_origin=https%3A%2F%2Fneurips.cc
 - title: Improving cross-modal attention via object detection
   authors: Yongil Kim, Yerin Hwang, Seunghyun Yoon, Hyeongu Yun, Kyomin Jung
   tldr: ''
@@ -239,6 +249,7 @@
     task in terms of vision-and-language.
   decision: Accept (Poster)
   pdf_file: kim-improving_crossmodal_attention_via_object_detection.pdf
+  video: https://www.youtube.com/watch?v=cI40ngAQ8dM&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=8
 - title: Is Attention Interpretation? A Quantitative Assessment On Sets
   authors: Jonathan Haab, Nicolas Deutschmann, Maria Rodriguez Martinez
   tldr: We test the interpretability of attention weights by designing Multiple Instance
@@ -260,6 +271,7 @@
     \ misleading attention-based explanations."
   decision: Accept (Oral)
   pdf_file: haab-is_attention_interpretation_a_quantitative_assessment_on_sets.pdf
+  video: https://nips.cc/virtual/2022/workshop/49996#collapse-sl-57614
 - title: Quantifying attention via dwell time and engagement in a social media browsing
     environment
   authors: Ziv Epstein, Hause Lin, Gordon Pennycook, David Rand
@@ -282,6 +294,7 @@
     media.'
   decision: Accept (Poster)
   pdf_file: epstein-quantifying_attention_via_dwell_time_and_engagement_in_a_social_media_browsing_environment.pdf
+  video: https://www.youtube.com/watch?v=Qriwj_2Ntas&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=9
 - title: Revisiting Attention Weights as Explanations from an Information Theoretic
     Perspective
   authors: Bingyang Wen, Koduvayur Subbalakshmi, Fan Yang
@@ -309,6 +322,7 @@
     with other model elements. '
   decision: Accept (Poster)
   pdf_file: wen-revisiting_attention_weights_as_explanations_from_an_information_theoretic_perspective.pdf
+  video: https://www.youtube.com/watch?v=qXe7arSSLwI&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=10
 - title: Systematic Generalization and Emergent Structures in Transformers Trained
     on Structured Tasks
   authors: Yuxuan Li, James McClelland
@@ -333,6 +347,7 @@
     computations that stacks of attention layers can afford.
   decision: Accept (Poster)
   pdf_file: li-systematic_generalization_and_emergent_structures_in_transformers_trained_on_structured_tasks.pdf
+  video: https://www.youtube.com/watch?v=6jPWKuCvnYU&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=11
 - title: 'TDLR: Top Semantic-Down Syntactic Language Representation'
   authors: Vipula Rawte, Megha Chakraborty, Kaushik Roy, Manas Gaur, Keyur Faldu,
     Prashant Kikani, Hemang Akbari, Amit P. Sheth
@@ -355,6 +370,7 @@
     and use the knowledge graphs ConceptNet and WordNet to infuse semantic knowledge. '
   decision: Accept (Poster)
   pdf_file: rawte-tdlr_top_semanticdown_syntactic_language_representation.pdf
+  video: https://www.youtube.com/watch?v=suMuqXxTn_k&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=12
 - title: 'The Paradox of Choice: On the Role of Attention in Hierarchical Reinforcement
     Learning'
   authors: Andrei Cristian Nica, Khimya Khetarpal, Doina Precup
@@ -379,6 +395,7 @@
     of a reinforcement learning agent.'
   decision: Accept (Poster)
   pdf_file: nica-the_paradox_of_choice_on_the_role_of_attention_in_hierarchical_reinforcement_learning.pdf
+  video: https://www.youtube.com/watch?v=ZD4uqwRNi70&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=13
 - title: Unlocking Slot Attention by Changing Optimal Transport Costs
   authors: Yan Zhang, David W Zhang, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees
     G. M. Snoek
@@ -396,6 +413,7 @@
     \ precision metric."
   decision: Accept (Poster)
   pdf_file: zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf
+  video: https://www.youtube.com/watch?v=QYaMr8_q1nA&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=14
 - title: Wide Attention Is The Way Forward For Transformers?
   authors: Jason Ross Brown, Yiren Zhao, Ilia Shumailov, Robert D. Mullins
   tldr: Widening the attention layer in a Transformer and only using a single layer
@@ -420,3 +438,4 @@
     area of research for domains beyond this.
   decision: Accept (Oral)
   pdf_file: brown-wide_attention_is_the_way_forward_for_transformers.pdf
+  video: https://nips.cc/virtual/2022/workshop/49996#collapse-sl-57615
